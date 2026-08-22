@@ -225,3 +225,7 @@ components together under the right conditions, and qualitatively new, collectiv
 behavior appears that no amount of studying one component in isolation would have
 predicted. Understanding when and how these properties emerge — not just what the
 microscopic rules are — is one of the recurring threads of this course.
+
+---
+
+**◀ Previous:** [Classical Physics](index.md) &nbsp;&nbsp;|&nbsp;&nbsp; **Next ▶:** [Lecture 2 — Degrees of Freedom, Newton's Equations, and Phase Space](lec02_degrees_of_freedom.md)
