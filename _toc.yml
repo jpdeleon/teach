@@ -1,0 +1,12 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: physics
+- file: astronomy
+- file: observation_data_analysis
+- file: space_earth_science
+- file: statistics_algorithms
+- file: philosophy_teaching

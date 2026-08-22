@@ -1,0 +1,34 @@
+version: 1
+project:
+  id: teach
+  title: Course Materials
+  author: Jerome de Leon
+  description: Course materials for physics, astronomy, data analysis, and statistics
+  keywords:
+    - physics
+    - astronomy
+    - statistics
+    - data analysis
+    - teaching
+    - courses
+  github: https://github.com/jpdeleon/jbook
+  license: CC-BY-4.0
+
+site:
+  template: book-theme
+  options:
+    favicon: logo.png
+    logo: logo.png
+    html_title: Course Materials
+    nav_links:
+      - text: "GitHub"
+        url: https://github.com/jpdeleon/jbook
+        icon: github
+    extra_footer: |
+      <p>Course materials by Jerome de Leon</p>
+
+execute:
+  execute_notebooks: force
+
+bibtex_bibfiles:
+  - references.bib

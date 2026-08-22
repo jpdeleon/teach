@@ -1,0 +1,38 @@
+[project]
+name = "teach"
+version = "0.1.0"
+description = "Course materials for physics, astronomy, data analysis, and statistics"
+authors = [{name = "Jerome de Leon", email = "jpdeleon@example.com"}]
+readme = "README.md"
+license = {text = "CC-BY-4.0"}
+requires-python = ">=3.10"
+dependencies = [
+    "jupyter-book<2",
+    "matplotlib",
+    "numpy",
+    "astropy",
+    "astroquery",
+    "pandas",
+    "scipy",
+    "emcee",
+    "corner",
+    "dynesty",
+    "ultranest",
+    "bilby",
+    "pymc",
+    "bambi",
+    "arviz",
+    "tinygp",
+    "specutils",
+    "photutils",
+    "lightkurve",
+    "sphinx-autobuild>=2024.10.3",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv.sources]
+# Use local development versions if needed
+# jupyter-book = {path = "../jupyter-book", editable = true}
