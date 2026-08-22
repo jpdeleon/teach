@@ -129,6 +129,7 @@ def make_traces(name):
         marker=dict(size=14, color="firebrick", symbol="diamond"),
         text=short_labels,
         textposition=positions,
+        cliponaxis=False,  # let labels overflow the axis box rather than get cut off
         hovertext=hover, hoverinfo="text", showlegend=False,
     )
     return range_trace, point_trace
@@ -160,7 +161,7 @@ fig.update_layout(
     autosize=True, height=380,
     updatemenus=[dict(type="buttons", direction="right", x=0.0, y=1.25,
                        xanchor="left", buttons=buttons, active=0)],
-    margin=dict(t=90),
+    margin=dict(t=90, l=60, r=60),
 )
 show_fig(fig)
 ```
