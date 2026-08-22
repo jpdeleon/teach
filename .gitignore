@@ -20,3 +20,6 @@ _build/
 .idea/
 *.swp
 *.swo
+
+# macOS
+.DS_Store

@@ -27,6 +27,7 @@ dependencies = [
     "photutils",
     "lightkurve",
     "sphinx-autobuild>=2024.10.3",
+    "plotly",
 ]
 
 [build-system]

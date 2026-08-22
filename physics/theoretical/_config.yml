@@ -28,3 +28,4 @@ sphinx:
       - ".venv/**"
       - "_build/**"
       - "**.ipynb_checkpoints/**"
+      - "transcript/**"
