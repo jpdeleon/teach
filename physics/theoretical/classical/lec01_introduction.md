@@ -82,6 +82,7 @@ categories = {
         "human_range": (1e-4, 1e3),
         "points": [
             ("electron", 9.1e-31),
+            ("Planck mass (not a lower bound - see below)", 2.18e-8),
             ("Sun", 2.0e30),
             ("observable universe (Fermi estimate)", 1e52),
         ],
