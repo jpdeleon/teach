@@ -7,4 +7,16 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+
+# Jupyter Book build output
+_build/
+
+# Jupyter Book cache
+.jupyter_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

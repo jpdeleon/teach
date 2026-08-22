@@ -1,37 +1,72 @@
-# Physics
+# Physics Courses
 
-## Theoretical Physics
+Physics is organized into three independent Jupyter Books, each focusing on a different aspect:
 
-### References
+```{tableofcontents}
+```
 
-* [Classical physics, lecture series by Prof. V. Balakrishnan](https://www.youtube.com/playlist?list=PL5E4E56893588CBA8)
-* [Quantum physics, lecture series by Prof. V. Balakrishnan](https://www.youtube.com/playlist?list=PL0F530F3BAF8C6FCC)
-* [Mathematical physics, lecture series by Prof. V. Balakrishnan](https://www.youtube.com/playlist?list=PLbMVogVj5nJRhl_6TUGChpnt2Lg0AZvZu)
-* [Stochastic processes, lecture series by Prof. V. Balakrishnan](https://www.youtube.com/playlist?list=PLbMVogVj5nJQo8D9D-D6lMqh4FJbPeE_f)
-* [Nonlinear dynamics, lecture series by Prof. V. Balakrishnan](https://www.youtube.com/playlist?list=PLbMVogVj5nJQKk1E7OUQs_TcW_zQoaO4t)
-* [Nonequilibrium statistical mechanics, lecture series by Prof. V. Balakrishnan](https://www.youtube.com/playlist?list=PLbMVogVj5nJQqNx0ElSk3Ip04Ofg7B22W)
+## Sub-books
 
-## Applied Physics
+### 📐 Theoretical Physics
+**Path:** `physics/theoretical/`
 
-### References
+Based on Prof. V. Balakrishnan's lecture series:
+- Classical Physics
+- Quantum Physics
+- Mathematical Physics
+- Stochastic Processes
+- Nonlinear Dynamics
+- Nonequilibrium Statistical Mechanics
 
-* [Channel: Action Lab](https://www.youtube.com/@TheActionLab/playlists)
-* [Channel: Applied Science](https://www.youtube.com/user/bkraz333/playlists)
-* [Channel: Engineer Guy](https://www.youtube.com/@engineerguyvideo)
-* [Channel: Real Engineering](https://www.youtube.com/@RealEngineering/playlists)
-* [Channel: NightHawkInLight](https://www.youtube.com/@Nighthawkinlight/playlists)
-* [Channel: Smarter Everyday](https://www.youtube.com/playlist?list=PLjHf9jaFs8XUXBnlkBAuRkOpUJosxJ0Vx)
-* [Channel: Branch Education](https://www.youtube.com/@BranchEducation/playlists)
+[Build & View →](physics/theoretical/index.html)
 
-## General Physics
+### 🔬 Applied Physics
+**Path:** `physics/applied/`
 
-### References
+Hands-on physics from popular YouTube channels:
+- Action Lab
+- Applied Science
+- Engineer Guy
+- Real Engineering
+- NightHawkInLight
+- Smarter Everyday
+- Branch Education
 
-* [Channel: Animations by Vladimir Vaščák](https://www.vascak.cz/?id=1&language=en)
-* [Video Explainer](https://distilbook.com/explorer)
-* [Interactive simulations by U. of Colorado](https://phet.colorado.edu/en/simulations/browse)
-* [Articles: Progress in Physics](https://progress-in-physics.com/)
-* [Book: Order-of-Magnitude Physics by Sanjoy Mahajan](https://www.inference.org.uk/sanjoy/oom/)
-* [Channel: MITx by W. Lewin](https://www.youtube.com/channel/UCiEHVhv0SBMpP75JbzJShqw)
-* [Book: Physics by Openstax](https://openstax.org/subjects/science)
-* [Web course: Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://ocw.mit.edu/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/video_galleries/lecture-videos/)
+[Build & View →](physics/applied/index.html)
+
+### 📚 General Physics
+**Path:** `physics/general/`
+
+General resources, animations, simulations, and textbooks:
+- Animations & Visualizations
+- Interactive Simulations
+- References & Resources
+- Textbooks
+
+[Build & View →](physics/general/index.html)
+
+## Building Individual Books
+
+Each sub-book can be built independently:
+
+```bash
+# Theoretical Physics
+cd physics/theoretical
+jupyter-book build .
+
+# Applied Physics
+cd physics/applied
+jupyter-book build .
+
+# General Physics
+cd physics/general
+jupyter-book build .
+```
+
+Or build all from root:
+```bash
+# Build all physics books
+for book in physics/theoretical physics/applied physics/general; do
+    jupyter-book build $book
+done
+```

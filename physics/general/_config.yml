@@ -1,0 +1,30 @@
+# Book settings
+title: General Physics
+author: Jerome de Leon
+logo: ../../logo.png
+
+execute:
+  execute_notebooks: force
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+bibtex_bibfiles:
+  - ../../references.bib
+
+repository:
+  url: https://github.com/jpdeleon/jbook
+  path_to_book: teach/physics/general
+  branch: master
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+sphinx:
+  config:
+    exclude_patterns:
+      - ".venv/**"
+      - "_build/**"
+      - "**.ipynb_checkpoints/**"

@@ -3,10 +3,25 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: physics
-- file: astronomy
-- file: observation_data_analysis
-- file: space_earth_science
-- file: statistics_algorithms
-- file: philosophy_teaching
+parts:
+  - caption: Physics
+    chapters:
+      - file: physics/index
+      - file: physics/theoretical/index
+      - file: physics/applied/index
+      - file: physics/general/index
+  - caption: Astronomy
+    chapters:
+      - file: astronomy
+  - caption: Data Analysis
+    chapters:
+      - file: observation_data_analysis
+  - caption: Space & Earth Science
+    chapters:
+      - file: space_earth_science
+  - caption: Statistics & Algorithms
+    chapters:
+      - file: statistics_algorithms
+  - caption: Philosophy
+    chapters:
+      - file: philosophy_teaching
