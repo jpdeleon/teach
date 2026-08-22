@@ -3,6 +3,7 @@
 
 title: Course Materials
 author: Jerome de Leon
+copyright: "2026, Jerome de Leon"
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
@@ -30,6 +31,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  extra_footer: '<p style="text-align: center; color: #666; font-size: 0.85rem;">© 2026 Jerome de Leon · <a href="https://github.com/jpdeleon" target="_blank">@jpdeleon</a></p>'
 
 # Exclude patterns
 sphinx:
@@ -38,3 +40,7 @@ sphinx:
       - ".venv/**"
       - "_build/**"
       - "**.ipynb_checkpoints/**"
+    templates_path: ["_templates"]
+    html_theme_options:
+      logo:
+        text: "course by @jpdeleon"
