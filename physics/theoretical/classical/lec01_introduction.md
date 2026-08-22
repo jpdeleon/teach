@@ -74,7 +74,8 @@ def show_fig(fig):
     default HTML bundles a legacy MathJax v2 loader that collides with
     Sphinx's MathJax v3 and silently breaks all math typesetting on the page.
     """
-    return HTML(fig.to_html(full_html=False, include_mathjax=False))
+    return HTML(fig.to_html(full_html=False, include_mathjax=False,
+                             config={"responsive": True}))
 
 # (name, value, is the "unaided human range" band?)
 categories = {
@@ -115,14 +116,20 @@ def make_traces(name):
         opacity=0.35, hoverinfo="skip", showlegend=False,
     )
     xs = [np.log10(v) for _, v in d["points"]]
-    labels = [f"{label}<br>≈ 10^{np.log10(v):.0f} {name.split(' ')[-1]}"
-              for label, v in d["points"]]
+    hover = [f"{label}<br>≈ 10^{np.log10(v):.0f} {name.split(' ')[-1]}"
+             for label, v in d["points"]]
+    # Short on-chart labels (full caveats/context live in the hover text
+    # instead), alternating above/below the axis so neighboring points on a
+    # cramped log scale don't stack their text on top of each other.
+    short_labels = [label.split(" (")[0] for label, _ in d["points"]]
+    positions = ["top center" if i % 2 == 0 else "bottom center"
+                 for i in range(len(xs))]
     point_trace = go.Scatter(
         x=xs, y=[0] * len(xs), mode="markers+text",
         marker=dict(size=14, color="firebrick", symbol="diamond"),
-        text=[label for label, _ in d["points"]],
-        textposition="top center",
-        hovertext=labels, hoverinfo="text", showlegend=False,
+        text=short_labels,
+        textposition=positions,
+        hovertext=hover, hoverinfo="text", showlegend=False,
     )
     return range_trace, point_trace
 
@@ -149,8 +156,8 @@ for i, name in enumerate(category_names):
 fig.update_layout(
     title="Human perception (green) vs. the full range physics probes (red)",
     xaxis=dict(title="log10( Mass (kg) )", range=[min(all_x) - 3, max(all_x) + 3]),
-    yaxis=dict(visible=False, range=[-1, 1.5]),
-    width=760, height=340,
+    yaxis=dict(visible=False, range=[-1.6, 1.6]),
+    autosize=True, height=380,
     updatemenus=[dict(type="buttons", direction="right", x=0.0, y=1.25,
                        xanchor="left", buttons=buttons, active=0)],
     margin=dict(t=90),

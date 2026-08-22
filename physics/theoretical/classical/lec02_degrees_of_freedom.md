@@ -126,7 +126,8 @@ def show_fig(fig):
     default HTML bundles a legacy MathJax v2 loader that collides with
     Sphinx's MathJax v3 and silently breaks all math typesetting on the page.
     """
-    return HTML(fig.to_html(full_html=False, include_mathjax=False))
+    return HTML(fig.to_html(full_html=False, include_mathjax=False,
+                             config={"responsive": True}))
 
 
 class PhaseSpaceExplorer:
