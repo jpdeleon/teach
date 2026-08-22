@@ -30,16 +30,23 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  extra_footer: '<p style="text-align: center; color: #666; font-size: 0.85rem;">© 2026 Jerome de Leon · <a href="https://github.com/jpdeleon" target="_blank">@jpdeleon</a></p>'
+  extra_footer: '<p style="text-align: center; color: #666; font-size: 0.85rem;">© 2026 Jerome de Leon · <a href="https://github.com/jpdeleon" target="_blank">@jpdeleon</a> · <a href="https://github.com/jpdeleon/teach" target="_blank">Source on GitHub</a></p>'
 
 # Exclude patterns
 sphinx:
+  # Without this, jupyter-book *shallow*-overwrites the whole html_theme_options
+  # dict with whatever is set under sphinx.config below - silently wiping out
+  # extra_footer/use_repository_button/use_issues_button (built from the html:
+  # block above) the moment sphinx.config.html_theme_options sets anything
+  # (e.g. logo.text). Recursive merging keeps both.
+  recursive_update: true
   config:
     exclude_patterns:
       - ".venv/**"
       - "_build/**"
       - "**.ipynb_checkpoints/**"
     templates_path: ["_templates"]
+    html_favicon: favicon.svg
     html_theme_options:
       logo:
         text: "course by @jpdeleon"
