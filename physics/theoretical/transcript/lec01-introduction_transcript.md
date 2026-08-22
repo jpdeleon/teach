@@ -1,1100 +1,1023 @@
-# Mod-01 Lec-02 Newtonian mechanics
+# Mod-01 Lec-01 Introduction
 
 Channel: nptelhrd
-URL: https://www.youtube.com/watch?v=8X1x9RLaaxc&list=PL5E4E56893588CBA8&index=2&t=1s
+URL: https://www.youtube.com/watch?v=Q6Gw08pwhws&list=PL5E4E56893588CBA8&index=1&t=2057s
 
 ## Transcript
 
-**[1:04]** So, let us start now, the formal study of
-a first topic that we would like to look at
-**[1:12]** in this course, which is classical dynamics,
-by which I mean Newtonian mechanics. And then,
-**[1:31]** after we finish the study of classical dynamics,
-in some sense in the conventional way, we
-**[1:37]** will go on to see how it merges with other
-areas of physics. The first topic we would
-**[1:43]** like to take up is the idea that the mechanics
-of a particle, which you study in, say, physics
-**[1:50]** one can be generalized to systems of particles,
-many, many particles taken together, and the
-**[1:56]** first concept that we would like to get clear
-is that of degrees of freedom. So let me illustrate
-**[2:02]** that. What I mean by the degrees of freedom
-of a physical system, such as a collection
-**[2:14]** of particles or an object or rigid bodies
-obeying Newtonian mechanics in some sense.
-**[2:22]** So I start with a single particle, which can
-move in three-dimensional space. I need three
-**[2:27]** coordinates - three independent coordinates
-- to specify its position at any given instant
-**[2:31]** of time and it has 3 degrees of freedom to
-start with it. What happens if I have two
-**[2:37]** particles moving in space? What is the number
-of degrees of freedom? I need 6 degrees of
-**[2:43]** freedom, and if I have N particles, I need
-3N degrees of freedom, provided these particles
-**[2:51]** move in space and there are no constraints
-among them at all; they are, of course, subject
-**[2:57]** to interaction; they interact with each other,
-they move under each other's influence and
-**[3:01]** so on, but they move in three-dimensional
-space; each of them requires three coordinates.
-**[3:05]** It does not matter whether these coordinates
-are Cartesian coordinates or spherical polar
-**[3:09]** coordinates or cylindrical polar coordinates,
-does not matter; what matters is the number
-**[3:14]** of coordinates. The number of coordinates
-for N particles; so N particle system, has
-**[3:26]** 3N coordinates.
-I am going to call these generalized coordinates.
-**[3:34]** The reason is they do not have to be Cartesian
-coordinates; they do not necessarily have
-**[3:39]** to be angular coordinates. There could be
-some of them Cartesian, some of them angular,
-**[3:43]** some of them in other coordinate system and
-so on; it does not matter. What matters is
-**[3:47]** the number here and we are going to use a
-certain symbol for these coordinates. I am
-**[3:50]** going to use little q for these coordinates.
-But before I do that, I would like to introduce
-**[3:55]** the idea of constraints.
-If I tell you, that a particle is constrained
-**[4:00]** to move on a plane such as this, then of course,
-it has only 2 degrees of freedom, and if you
-**[4:06]** consign it, if you confine this particle to
-a line, then it has a single degree of freedom.
-**[4:12]** What is important to recognize is that you
-must count the number of degrees a freedom
-**[4:17]** before you start solving the equations of
-motion.
-**[4:20]** So first, you have to specify what the independent
-degrees of freedom are. Now we have seen that
-**[4:25]** for N particles you have 3N coordinates, 3N
-degrees of freedom. But suppose I start putting
-**[4:30]** constraints, suppose I tell you that particle
-one and particle two are connected up in such
-**[4:39]** a way that the distance between them is fixed
-it cannot be changed. Then how many independent
-**[4:45]** degrees of freedom are there? There are 5
-independent of degrees of freedom, because
-**[4:51]** you have 6 coordinates between these two particles,
-but then you also have a constraint that r
-**[4:58]** 1 2 equal to a constant. The distance between
-1 and 2 is constant, is fixed; it is given
-**[5:04]** to you as part of the problem. In which case,
-you subtract one independent coordinate out
-**[5:09]** and you have 5 independent coordinates left.
-Therefore, the lesson is to find the number
-**[5:16]** of independent degrees of freedom, you first
-must take the total number of degrees of freedom
-**[5:21]** and subtract out all those degrees, which
-you can eliminate due to the constraints on
-**[5:26]** the problem.
-Suppose I have three particles, the third
-**[5:31]** one here, and I tell you that the distance
-between 2 and 3 is also constant. How many
-**[5:41]** degrees of freedom do we have now? Independent;
-we have 7 independent degrees of freedom,
-**[5:47]** and if I join all three and I tell you that
-all these three distances are constant - fixed
-**[5:53]** - then of course, these three particles could
-be imagined to be at the vertices of a rigid
-**[5:57]** triangle and you have 6 independent degrees
-of freedom left. So, now what is the general
-**[6:05]** story? I have N particles, 3N coordinates,
-and now I tell you that all the distances
-**[6:10]** between particles are constant.
-**[6:14]** r i j equal to constant for 1 less than equal
-to i j less than equal to N. How many independent
-**[6:25]** degrees of freedom do we have now? How many
-constraints are there? Well, I have N particles
-**[6:33]** and there are 3N coordinates and how many
-constraints are there? I tell you that all
-**[6:37]** the distances, all the pair-wise distances,
-are constant. Nc 2 is the number of constraints
-**[6:46]** number of pairs equal to N times N minus 1
-over 2, and therefore, how many independent
-**[6:56]** degrees of freedom are there? Well let us
-try that out.
-**[7:01]** So number of independent degrees of freedom
-equal to... I put a question mark here. I
-**[7:12]** am not altogether convinced 3N minus N minus
-1, N times N minus 1. What happens if we put
-**[7:20]** N equal to 4? What happens if we put N equal
-to 4 here? What happens if we put N equal
-**[7:34]** to 5. What happens if we put N equal to 8?
-Becomes negative, but that is not physical;
-**[7:47]** it is obvious that you cannot have a negative
-number of degrees of freedom; this cannot
-**[7:50]** go on increasing; it is very clear from here;
-because this increases linearly in N, and
-**[7:55]** that increases like the square of N; so pretty
-soon that is going to overtake it. So what
-**[8:01]** would you say is wrong? What should we do?
-Speak in a mike; yes.
-**[8:10]** If we have a case structure with a triangle,
-some constraints become redundant.
-**[8:17]** Some of the constraints become redundant.
-It is quite clear that you do not need all
-**[8:21]** these constraints; just some of them are enough
-to hold the object rigidly; how many would
-**[8:27]** those be?
-Well in the case of a triangle, you have...
-**[8:35]** No, it is not 2, because if you have these
-two guys, you can still move this around,
-**[8:40]** you can still do this, distances are still
-fixed, but if it is a third one, then its
-**[8:46]** rigid. So how many independent degrees of
-freedom do we really have? Now this is mimicking
-**[8:52]** a rigid body; a rigid body is one in classical
-mechanics - in Newtonian mechanics - you define
-**[8:57]** a rigid body as one where the distance between
-any pair of points is fixed once and for all.
-**[9:03]** So, it is quite clear, that this cannot be
-a formula. This cannot be the number of independent
-**[9:08]** degrees of freedom, simply because this increases
-like the quadratic function of N, whereas
-**[9:13]** this is linear; where does this stop? 6. 6
-degrees of freedom; a rigid body has 6 independent
-**[9:24]** degrees of freedom. So no matter how large
-N is, it is quite clear that you have just
-**[9:29]** 6 independent degrees of freedom; the remaining
-constraints are redundant completely. And
-**[9:34]** what are the 6 degrees of freedom? Now, we
-can start counting them, and when you compute
-**[9:38]** degrees of freedom, the way to check if something
-is right or wrong is to do it in two different
-**[9:42]** ways. Compute the number of degrees of freedom
-in two different ways, and if the answers
-**[9:47]** match, then you know you are on the right
-track.
-**[9:49]** How many degrees? We have said that a rigid
-body has 6 degrees of freedom. I should like
-**[9:53]** to count these degrees of freedom and tell
-you what they correspond to. You can choose
-**[9:58]** coordinates in different ways, but I would
-physically like to understand what these coordinates
-**[10:03]** correspond to.
-**[10:04]** So here is a rigid body. Let us take something
-like a cube and this has 6 degrees of freedom
-**[10:15]** - independent degrees of freedom - we should
-like to count them; here is one way of counting
-**[10:20]** them. I need 3 degrees of freedom to tell
-you where the center of mass of this object
-**[10:25]** is in space. So with respect to some fixed
-coordinate system, the center of mass of this
-**[10:37]** object is at some point - position vector
-R, and it has of course, three coordinates
-**[10:44]** associated with it and that takes care of
-3 degrees of freedom. There are 3 more degrees
-**[10:50]** of freedom, which tell you what the orientation
-of this object is in space and how do you
-**[10:57]** tell what that is.
-Well there are several ways of doing this,
-**[11:02]** but a simple way of doing it is the following:
-associate - here is my fixed coordinate axis
-**[11:08]** in space - with the body associate a coordinate
-system; a body fixed coordinate system. So
-**[11:17]** associate with it a coordinate system, which
-looks like this - body fixed coordinate system
-**[11:22]** - and then the orientation of body in space
-relative to this fixed coordinate system is
-**[11:29]** dependent on how this coordinate system is
-twisted or turned with respect to this coordinate
-**[11:34]** system. Now, what this means is, you cannot
-translate this R, put it here and compare
-**[11:41]** and see how the new coordinate system, how
-the body fixed coordinate system, is oriented
-**[11:45]** with respect to the space fixed coordinate
-system. And what this means is you start with
-**[11:50]** a space fixed coordinate system and you want
-to go to a body fixed coordinate system, to
-**[11:55]** go to this set of coordinates from this, you
-have to do 3 Euler rotations, you rotate about
-**[12:01]** three different axis and you need three angles
-for this purpose.
-**[12:06]** Therefore, you have three coordinates for
-the center of mass, and three angles, which
-**[12:12]** will specify the manner in which this coordinate
-system is turned to reach this coordinate
-**[12:20]** system from here. What sort of rotations do
-you need to reach this coordinate system from
-**[12:24]** here? That is 3 more degrees of freedom, and
-therefore, you have 6 degrees of freedom.
-**[12:30]** Another way of looking at it is to say here
-is a rigid body, and now I start here, and
-**[12:36]** here is the center of mass of this rigid body.
-So three coordinates are gone there, and then
-**[12:42]** to reach the orientation of this coordinate
-system from this coordinate system, I take
-**[12:48]** this coordinate system and turn it about some
-axis through a certain angle. So to specify
-**[12:57]** the axis of rotation, I need two angles, because
-the axis of rotation in three-dimensional
-**[13:03]** space is a unit vector, and unit vector requires
-two numbers to specify, because the sum of
-**[13:09]** the squares of the three numbers is unity.
-So I need to specify a latitude and a longitude
-**[13:15]** if you like, on the surface of a unit sphere
-to reach to specify an axis, and about that
-**[13:21]** axis I can rotate through any angle from 0
-to 2 pi. Now that is one more degree of freedom.
-**[13:28]** So we have computed this in two different
-ways, and each time, we discover that for
-**[13:32]** a rigid body, you have 6 degrees of freedom;
-**[13:33]** now that is a general rule; for a rigid body,
-number of independent degrees of freedom equal
-**[13:51]** to 6 for any N, is this clear that you have
-just 6 degrees of freedom.
-**[14:00]** And of course, you are used to this from spectroscopy,
-when you study the spectra of diatomic molecules.
-**[14:05]** For example, you are told there are 3 translation
-degrees of freedom, the 2 rotational degrees
-**[14:09]** of freedom, and the reason, of course, is
-that in the diatomic molecule, you have two
-**[14:13]** molecules connected by a invisible bar, and
-there is no moment of inertia for rotations
-**[14:19]** along that axis; and therefore, you have 2
-degrees of rotational freedom and then 3 degrees
-**[14:25]** of translational freedom.
-In the moment, you have a tri-atomic molecule
-**[14:28]** you have 6 and so on, provided the molecule
-is not deformable. If, of course, it is deformable
-**[14:35]** the distances between the atoms changes, then
-you have 9 degrees of freedom and depending
-**[14:41]** on the energy you can excite any number of
-these modes. But for a rigid body, as far
-**[14:46]** as we are concerned, we have 6 degrees of
-freedom, 3 of which I will call translational,
-**[14:51]** because they tell you where you should move
-to take it center of mass from a fixed set
-**[14:56]** of coordinates, and then 3 orientational degrees
-of freedom - tell you how the system is oriented.
-**[15:02]** So, henceforth, what we are going to do is
-to pretend that we always have eliminated
-**[15:10]** the constraints and computed the number of
-independent degrees of freedom.
-**[15:17]** Now, you have to be a little careful here,
-because the constraint does not always eliminate
-**[15:23]** a degree of freedom. For instance, if I told
-you that you have a particle moving along
-**[15:28]** on this table, and the table has boundaries,
-and you cannot get out of those boundaries,
-**[15:33]** then what you doing, is to confine the particle
-to a certain region. It has 2 degrees of freedom
-**[15:38]** because it is on a plane, but it has got inequalities,
-it says its x coordinate not exceed this value
-**[15:43]** and the y coordinate cannot exceed that value.
-Those are inequalities, but they do not reduce
-**[15:49]** the number of degrees of freedom. If I told
-you that on the xy plane, a particle moves
-**[15:54]** on the xy plane in the first quadrant only,
-it still has 2 degrees of freedom nothing
-**[16:01]** is eliminated.
-**[16:02]** So, whenever you can eliminate degrees of
-freedom, these are called holonomic constraints
-**[16:11]** or integrable. Never mind why I call it integrable
-for the moment, and then you have non holonomic.
-**[16:33]** This cannot be used a non holonomic constraint
-cannot be used in general to eliminate a degree
-**[16:48]** of freedom. In general, non holonomic constraints
-would be inequalities of the kind I just illustrated
-**[16:59]** or they could involve velocities as opposed
-to positions alone or coordinates alone, in
-**[17:05]** which case it is not all clear that you can
-integrate matters out to eliminate a degrees
-**[17:10]** of freedom, we will come across some examples
-of this as we go on, but by and large, in
-**[17:14]** this course, we will restrict ourselves to
-holonomic constraints.
-**[17:17]** Now, I made the point that you must first
-identify the number of independent degrees
-**[17:25]** of freedom, and then start writing down the
-equations of motion, and solving them; not
-**[17:31]** the other way about. A very simple example
-is the following - I imagine this piece of
-**[17:36]** chalk to be a point particle moving in space
-under the action of the earth's gravity,
-**[17:42]** I hold this particle here - at this point.
-So I know its initial position, and I know
-**[17:48]** the force on it due to gravity. Can you predict
-its future from that? Can you predict its
-**[17:55]** future motion from that?
-Well, I take this chalk, and I drop it from
-**[18:01]** rest, and of course, if it drops straight
-down, on the other hand, I give it a little
-**[18:06]** horizontal velocity, and then it moves in
-a parabolic path. Strictly speaking, an elliptic
-**[18:12]** path - part of an elliptic part - I give it
-a slightly higher velocity; it goes into orbit
-**[18:16]** round the earth; I give it even higher horizontal
-velocity and it escapes in a hyperbolic orbit.
-**[18:23]** So, how could you say, that if I tell you
-the initial position and the initial force,
-**[18:29]** the future is predictable? It is not; it looks
-like it 
-is not. Is there sufficient data? Does it
-**[18:39]** suffice to tell you what the initial positions
-are and the initial forces are? You need initial
-**[18:45]** velocities also. Newton's equations are
-second order in time. When you need to grade
-**[18:50]** it you have two constants of the motion in
-the one-dimensional case, and then of course,
-**[18:54]** you need to know both the initial position
-as well as the initial velocity to predict
-**[18:59]** what is going to happen next.
-So, it is immediately clear that dynamics
-**[19:05]** occurs in a space, which is not just the coordinates,
-but also the velocities. This space is called
-**[19:13]** phase space. We are going to do a lot about
-phase space, but it is good to get this idea
-**[19:18]** right in the beginning, straight right in
-the beginning, that the equations of motion
-**[19:24]** require you to specify both the initial coordinates
-as well as the initial velocities or the slopes
-**[19:32]** of the trajectories, not just the point on
-the trajectory, for you to be able to solve
-**[19:37]** this equations uniquely, and this was a simple
-example of it.
-**[19:43]** That immediately tells you that dynamics is
-not happening in real space; it is happening
-**[19:47]** in something called phase space, which we
-will study in greater detail, but it is a
-**[19:53]** lesson. And secondly, let me ask you - how
-many degrees of freedom does this particle
-**[19:56]** have? It has 3. You must not make the mistake
-of saying, if I drop this from rest, it moves
-**[20:03]** in a straight line; therefore, it has 1 degree
-of freedom; you should not say that; that
-**[20:11]** is not true, because you cannot count degrees
-of freedom after you solve the equations of
-**[20:17]** motion. You have to count the degrees of freedom
-- independent degrees of freedom -before you
-**[20:22]** solve the equations of motion. You must then
-identify the corresponding velocities as well,
-**[20:28]** and then, the equations of motion are written
-down in terms of these coordinates and velocities,
-**[20:33]** and solve with some specific initial conditions.
-The idea is once you specify the initial conditions
-**[20:38]** the motion in principle is solved.
-So, this is the idea behind dynamics. We are
-**[20:44]** going to do this in great generality. You
-going to do it in much greater generality
-**[20:49]** than even mechanics itself, as we go along,
-but you have to get this idea right in the
-**[20:53]** beginning, that the number of independent
-degrees of freedom has to be determined first,
-**[20:59]** and the corresponding generalized velocities
-have also to be added on to the set of dynamical
-**[21:05]** variables.
-**[21:06]** So, let me write that down here - generalized
-coordinates... q n and generalized velocities.
-**[21:49]** I am going to use overhead dot for the time
-derivative of any dynamical variable, and
-**[22:02]** these are the so-called generalized velocities,
-and this is a notation I am going to use for
-**[22:07]** a system, and I do not care what kind of system
-it is, which has N independent degrees of
-**[22:13]** freedom, and I label them q 1 to q n. Some
-of them could be Cartesian coordinates, some
-**[22:21]** of t hem could be angular coordinates, they
-could be mixtures of the two, we do not care,
-**[22:28]** but this is the general framework.
-And then, to solve the equations of motion,
-**[22:35]** you need to know a certain amount of initial
-data. You need to know the values of these
-**[22:40]** generalized coordinates and the generalized
-velocities at an initial instant of time,
-**[22:46]** at some initial instant of time. And then,
-the task is to write the equations of motion
-**[22:49]** down, and to solve these equations. And you
-guaranteed then suitable conditions, the solution
-**[22:56]** is unique. It is in this sense the Newtonian
-dynamics is deterministic. You give me the
-**[23:02]** initial data and the equations of motion,
-and the future is uniquely determined. We
-**[23:11]** going to write these equations once again,
-look at them. The simplest instance, of course,
-**[23:15]** you have Newton's equations. Let us do this
-for the very, very simple case of a single
-**[23:20]** particle moving along the x-axis, just in
-one-dimension; there is just 1 degree of freedom.
-**[23:27]** A particle of mass m, moving along the x-axis
-has a single degree of freedom.
-**[23:31]** So one-d motion of a particle and let me call
-this just q; the x-coordinate of this particle
-**[23:46]** just q; just to use to get this notation.
-What is the equation of motion of this particle?
-**[23:52]** If it is subject to some force f of q, what
-is the equation of motion? What is Newton's
-**[24:01]** equation? It is equal to mass times m q double
-dot equal to the force on this particle, and
-**[24:08]** this force could, in fact, be quite a general
-force; it could depend on where the particle
-**[24:14]** is; certainly, it could do that. So it is
-general a function of q. Could it depend on
-**[24:21]** q dot as well? Can you give me the example
-of a force, which actually depends on the
-**[24:27]** velocity of the particle?
-Viscous force. Anything else? Magnetic force.
-**[24:33]** Force due to a magnetic field; it is velocity
-dependent. So certainly, in general, this
-**[24:37]** would have also a q dot. Could it depend on
-time explicitly? Could it depend on time explicitly?
-**[24:50]** Yes or no? Yes. What is to stop me from pushing
-this particle up and down by some prescribed
-**[24:57]** external force, which changes with time? So,
-in general, it could depend on time, could
-**[25:08]** depend on time as well. Certainly could. Yes?
-Pardon me.
-**[25:14]** If the force depends on q and t, it depend
-on q dot?
-**[25:24]** He says if the force depends on q and t it
-accounts for q dot; is that true? It is a
-**[25:32]** good question. Is that true? You have to appreciate
-the fact that q and q dot are independent
-**[25:39]** dynamical variables, because I could specify
-them independently, initially. After you have
-**[25:47]** solved an equation of motion under certain
-conditions, then of course, it turns out that
-**[25:53]** q is a function of t, and q dot is just found
-by differentiating it, whether it is after
-**[25:58]** you solve the equation of motion, for a specific
-motion, not true in general.
-**[26:04]** So, again you have to get used to this idea,
-that coordinates and velocities are actually
-**[26:12]** independent dynamical variables, because the
-equation of motion depends on the acceleration;
-**[26:20]** that is Newton's equation of motion; that
-is a way it is. We will see why as we go along.
-**[26:25]** But accepting Newton's equations for the
-moment, this is an equation for the rate of
-**[26:30]** change of the velocity and it is a second
-order equation in the coordinates; it is a
-**[26:36]** second order differential equation. So positions
-and velocities are independent dynamical variables,
-**[26:42]** because initially you could specify them independently
-of each other.
-**[26:48]** So you must not make the mistake of saying
-q dot is determined by giving q; it is determined
-**[26:52]** only if you give me q already as a function
-of t, which happens only after you solve the
-**[26:57]** equation of motion.
-That is a very good question - why cannot
-**[27:04]** f depend on higher forces? q double dot, for
-example, q triple dot and so on. Well our
-**[27:10]** experience has been, first of all Newton's
-equations do not say anything about what kind
-**[27:16]** of force you have here at all. You could have
-in principle very complicated forces, could
-**[27:21]** depend on the history of the particle as well.
-Now, we are making an assumption that it does
-**[27:26]** not do so, that it depends only on q, q dot,
-and t and that is an assumption; based on
-**[27:32]** experience to start with. There are situations
-where the force depends on q double dot.
-**[27:37]** For example, I give you a simple example we
-will not consider much of this at the moment.
-**[27:43]** If you have a charged particle that is subject
-to external electric and magnetic fields,
-**[27:48]** and it moves in space, if it accelerates,
-then principle it radiates, and once it radiates
-**[27:55]** - electromagnetic radiation - that radiation
-could act back on the particle and produce
-**[28:00]** what is called radiation reaction, leading
-to radiation damping, and that force indeed
-**[28:06]** turns out in classical physics to depend on
-the acceleration of the particle. So, you
-**[28:11]** could have situations where you have q double
-dot here as well; this is possible, but these
-**[28:17]** are the simplest instances most of the time.
-Now, already this is not an easy problem as
-**[28:24]** it stands, because the forces in general are
-coordinate dependent, velocity dependent,
-**[28:27]** and it is time dependent, and when it is time
-dependent, this implies that they are naturally
-**[28:33]** changing the rules of the game as time goes
-on. I am applying a force, which is explicitly
-**[28:38]** time dependent, and such a dynamical system
-is said to be non-autonomous. If it did not
-**[28:53]** have this time dependence, I would say it
-is autonomous. Of course, non autonomous systems
-**[29:01]** are bound all round us. If, for instance,
-I took a simple, single particle, and you
-**[29:07]** applied a time dependent force explicitly,
-it was charged, you applied an electric field,
-**[29:12]** and you change the electric field as a function
-of time, then it will be a non-autonomous
-**[29:16]** system. We will come to non- autonomous systems,
-just tell you the possibility this exists.
-**[29:22]** But in the simplest instances, when you do
-not have explicit time dependents, and you
-**[29:26]** do not have magnetic fields, you do not have
-viscous forces and so on, you have just f
-**[29:31]** of q; nothing more than that; this would be
-the simplest instance. Now let us look at
-**[29:38]** a simple harmonic oscillator and ask - what
-does it do? Just a single simple harmonic
-**[29:43]** oscillator.
-**[29:46]** So you have the x-axis; this is 0 and you
-have a particle oscillating back and forth.
-**[29:51]** What is the equation of motion, if the frequency
-with which it is oscillated - the natural
-**[29:55]** frequency is omega - what is the equation
-of motion? It is mq double dot equal to...
-**[30:11]** Is this is correct? q double dot is minus
-omega squared q. So move this m, this is minus
-**[30:21]** kq, where k was a spring constant and you
-could write this as minus omega square; just
-**[30:33]** to recall. What is special about this force?
-It is directed towards center of force, center
-**[30:44]** of attraction, but what is special about it?
-It is a conservative force; this force is
-**[30:52]** conservative in the sense that it is derivable
-from a potential.
-**[30:57]** So as soon as you have a force that is conservative,
-we know that the q double dot equal to mq
-**[31:09]** double dot is F of q, and if this is a conservative
-force, this implies this force is minus dV;
-**[31:26]** it is the derivative of a potential. Now what
-is the potential here? What is V of q? It
-**[31:48]** is one half m omega squared q squared. In
-a general sense, if I took an arbitrary potential
-**[32:06]** V of q, and I said I have this particle moving
-on the x-axis under the influence of a conservative
-**[32:13]** force derived from a potential V of q, then
-this is the equation of motion: N q double
-**[32:18]** dot minus dV q over dq. But now you would
-say, look this is a second order equation,
-**[32:25]** and to solve this set of equations, this single
-equation, you need two initial conditions,
-**[32:30]** what should those be? Positional velocity.
-For instance, I could choose q of 0 and q
-**[32:36]** dot of 0, I could specify them independently
-and I can solve this in principle.
-**[32:41]** Therefore, it suggests that what we should
-really do is the following - we should write
-**[32:48]** q dot equal to V; you should write V dot equal
-to... this side minus v prime q over m; I
-**[33:05]** use the prime for a derivative with respect
-to the argument. This is the way I should
-**[33:12]** write these two equations. That is a set of
-two first order equations and this explicitly
-**[33:19]** tells you that the independent dynamical variables
-are q and V or q and q dot. And, then of course,
-**[33:30]** this plus initial conditions q of 0, v of
-0, together implies a unique solution, together.
-**[33:58]** It turns out this is the most fruitful approach
-in mechanics, we write the whole thing down
-**[34:03]** in terms of first order differential equations,
-always. And what is the advantage of writing
-**[34:09]** this set of first order equations? They are
-coupled to each other, because the q equation
-**[34:12]** involves V, the V equation involves q once
-again, but they are first order differential
-**[34:17]** equations, and therefore, specifying the complete
-set of initial conditions, in principle, leads
-**[34:23]** to a unique solution.
-Now let us pursue this in our case of our
-**[34:29]** harmonic oscillator. We know the solutions;
-we can write the solution down completely;
-**[34:35]** it is quite trivial to solve this you get
-cosines and sine, in general, as functions
-**[34:40]** of t, and then, you fit in the initial conditions
-and you got the solution uniquely. But this
-**[34:45]** is not as interesting as finding out what
-the general kind of solution looks like, in
-**[34:50]** this problem, it is periodic, you know that;
-what is the most general kind of solution,
-**[34:54]** one can write down? You do not even need to
-solve this problem, the reason is - I could
-**[34:59]** take the attitude, and I plot q versus V.
-**[35:08]** That is q dot on the vertical axis, and then,
-since, the initial conditions imply specifying
-**[35:16]** a point on this plane - some initial q of
-0 and v of 0 - as time goes along q changes
-**[35:23]** to q of t and v changes to v of t, this point
-moves on the plane and this plane is called
-**[35:30]** the phase plane. A point on this plane specifies
-this system completely, and this point changes
-**[35:49]** as a function of time, and it traces a trajectory
-called the phase trajectory. So what to do
-**[35:58]** is to start at this point - this is the initial
-point - and as a function of time to move
-**[36:03]** in this way.
-Now, tell me, can this trajectory cut itself?
-**[36:10]** This is the phase trajectory. This point here
-q of 0, v of 0 and at any arbitrary instant
-**[36:29]** of time this is q of t. I am interested in
-looking into the future. So I start with a
-**[36:41]** initial condition, and I say what happens
-as a function of time, as things go along.
-**[36:45]** But surely the initial condition itself - had
-the motion been going along forever - would
-**[36:49]** have been reached from some earlier time,
-and therefore, it is really part of a half
-**[36:54]** trajectory. If I had started the whole thing
-at t is equal to minus infinity, there would
-**[36:58]** have been a trajectory, which comes along
-q, at 0 it would take this point and then
-**[37:02]** it keeps going further down.
-Now, can this trajectory do the following?
-**[37:08]** Can it do that? Could this trajectory do that?
-Why not?
-**[37:20]** If the point of intersection is an initial
-condition the future is supposed to be determined
-**[37:26]** uniquely.
-If the point of, very good, if the point of
-**[37:29]** intersection is an initial condition the future
-is supposed to be determined uniquely from
-**[37:33]** this initial condition, and the force equations,
-and the equation of motion. So, you start
-**[37:39]** with this point, and you have two outward
-arrows, and therefore, the future is not unique,
-**[37:44]** because you could have started with that point
-of intersection as the initial state.
-**[37:50]** And then, you are told the future is uniquely
-determined, cannot branch of two different
-**[37:53]** trajectories, and therefore, the phase trajectories
-of such a system cannot intersect themselves.
-**[38:04]** And this is true in any number of dimensions;
-it is true in general for dynamical systems,
-**[38:10]** provided you do not change the rules in between.
-In other words, provided you do not have a
-**[38:16]** non-autonomous system. If you have a non-autonomous
-system, then this is possible, because then
-**[38:25]** it distinguishes in time, it is not time translation
-invariant; the equations of motion are changing
-**[38:31]** as a function of time. The rules are changing;
-therefore, there is nothing to stop you from
-**[38:35]** intersecting the phase trajectories from intersecting
-themselves.
-**[38:39]** For autonomous systems, phase trajectories
-cannot intersect themselves; they cannot intersect
-**[38:47]** each other either. Two different phase trajectories
-corresponding to two different initial conditions
-**[38:52]** cannot intersect. We will write that down;
-it is so important that we should write this
-**[39:20]** down; not intersect each other.
-**[39:46]** Is this possible? It is possible that this
-system does the following?
-**[39:55]** It starts at some point it goes along and
-comes back to its initial point; is this possible?
-**[40:02]** This is eminently possible, because once it
-reaches this point it has no choice, but to
-**[40:08]** retrace what it did earlier and comes right
-back. And what do you call such motion where
-**[40:13]** the system comes back to itself after some
-time? Periodic motion; it is periodic motion.
-**[40:20]** The only exception is periodic motion. So,
-we say closed - simple closed - 
-implies and this is implied by periodic motion.
-**[40:39]** Let us look at the case of the harmonic oscillator
-once again, and ask what happens. We know
-**[40:48]** in this case every initial condition corresponds
-to periodic motion of some kind. So let us
-**[40:53]** look at that case.
-**[40:54]** Now, I specialize to the harmonic oscillators.
-So q dot is v and v dot is minus omega squared
-**[41:01]** q; so the q double dot is equal to minus omega
-squared q. What will the phase trajectories
-**[41:10]** look like? You are going to integrate this;
-you have to take this equation of motion and
-**[41:18]** integrate it. So let us do that. Let us integrate
-this equation. We have to take these two equations,
-**[41:24]** find out what the slope of the phase trajectory
-is like, and then integrate it.
-**[41:28]** So I divide one equation by the other, and
-I get dv over dq equal to minus omega squared
-**[41:34]** q over v. I need to integrate; this is the
-slope of the phase trajectory at any point.
-**[41:49]** What should I do to integrate this? Well the
-variables are separable, as you can see it
-**[41:54]** is very simple; so it says vdv plus omega
-square qdq equal to 0. And if I integrate
-**[42:02]** this, what happens? What is the integral of
-this? Half v squared; so it says half v squared
-**[42:13]** plus half omega squared q squared equal to
-constant; a constant of integration. What
-**[42:22]** is the significance of this constant of integration?
-Energy...
-**[42:27]** Almost; if I multiply this by m, then of course,
-you immediately see that this is nothing but
-**[42:36]** writing down the fact that the total energy
-of the system, and this remember is v of q,
-**[42:45]** potential energy; this is equal to e; I choose
-a symbol e for this constant of the motion;
-**[42:55]** very evocative, because I know it is the energy
-in the system.
-**[43:03]** Now what is this equation? What does it look
-like? What kind of equation is this? In general
-**[43:10]** it is an ellipse; unless, of course, these
-numbers are such that the coefficients of
-**[43:15]** these two are equal; in general it is an ellipse.
-Now, what kind of ellipse? Where are the principal
-**[43:20]** axis of the ellipse? The coordinate axis themselves;
-this is of the form ax squared over a squared
-**[43:27]** plus y squared over b squared is 1; so it
-is some kind of ellipse in this fashion.
-**[43:37]** Wherever you start on this ellipse, whatever
-be the initial conditions, you are going to
-**[43:42]** remain on this ellipse and come back forever.
-But you should never draw a phase trajectory
-**[43:46]** without drawing an arrow on it to show the
-orientation; namely, how does the system move
-**[43:51]** on the phase trajectory as time increases.
-So what should I do? There are just two possibilities
-**[43:56]** - either it goes clockwise or counter clockwise.
-What does it do here? This physical problem
-**[44:04]** corresponds to a harmonic oscillator, which
-is oscillating with center of oscillation
-**[44:08]** at the origin of coordinates; therefore, you
-can determine what the direction of motion
-**[44:13]** is in this phase trajectory; in which direction
-does it move? this way; clockwise counter;
-**[44:18]** how do you say that?
-q dot is one axis; q dot is positive.
-**[44:25]** Well, if I start, if this is the center of
-oscillation, I am going back and forth on
-**[44:31]** this axis, this is 0, if I stretch this oscillator
-to the end of its amplitude and let go from
-**[44:39]** rest, this corresponds to being here at this
-point. q is at its maximum. the velocity is
-**[44:48]** 0. And then as you can see, when I let go
-from rest, the velocity directs it back towards
-**[44:54]** the center of motion, and therefore, it is
-directed to the left; in other words, the
-**[44:58]** velocity goes negative. So inside it does
-this; goes negative, and then, hits at this
-**[45:05]** point, it passes through the origin again
-going rapidly leftwards, goes to the left
-**[45:11]** most extreme - the amplitude here, and starts
-moving to the right again so the velocity
-**[45:15]** becomes positive until it comes back here.
-Therefore, this is the phase trajectory for
-**[45:22]** a simple harmonic oscillator.
-We know, of course, that the amplitude of
-**[45:30]** the oscillator determines the energy and vice
-versa. So it is quite clear that this point
-**[45:36]** - the maximum value of q - is given by what?
-In terms of e, what is it equal to? It is
-**[45:49]** square root of 2 e over m omega squared. That
-is another way of remembering the fact that
-**[46:00]** the energy of an oscillator is one half ka
-squared, where k is a spring constant, and
-**[46:06]** a is the amplitude; it is exactly the same
-statement.
-**[46:10]** What does this point correspond to? What is
-the semi minor axis? 2 e over m. What happens
-**[46:29]** if I start with an oscillator, which has a
-slightly higher energy? What would the ellipse
-**[46:36]** look like? It would be a concentric ellipse;
-exactly the same way; so that would be another
-**[46:44]** ellipse, which will go like this. And therefore,
-as you can see, every time you specify a positive
-**[46:54]** number e, the entire phase trajectory is determined.
-The system is constraint to then, confined
-**[47:02]** to this ellipse depending on what the value
-of e is, the plane is therefore laminated
-**[47:09]** by these ellipses.
-There is just one exceptional point; there
-**[47:13]** is just one initial condition, which does
-not fall into this picture. And what is that?
-**[47:20]** If it starts at the origin; in other words,
-you do not stretch it; it is at the origin
-**[47:24]** and it has zero velocity, then it remains
-there forever. The origin in the phase plane
-**[47:32]** is a trajectory all by itself; user does not
-move, just stays, the ellipse there; it is
-**[47:39]** the equilibrium point. We will come back to
-the significance of this equilibrium point,
-**[47:46]** because it is a special trajectory all by
-itself. It corresponds to putting e equal
-**[47:51]** to 0, and then of course, both v and q are
-compelled to be 0.
-**[48:01]** What is special about the harmonic oscillator?
-What is really special about harmonic oscillations,
-**[48:06]** which are there all around us? The time period,
-is well... the time period is constant, in
-**[48:12]** what sense? Independent of the amplitude;
-harmonic motion is the only motion where the
-**[48:19]** time period is independent of the amplitude.
-There are other potentials for which also
-**[48:25]** you have time period which is independent
-of the amplitude, we will come to that. They
-**[48:28]** are related to the harmonic oscillator, but
-there is a simple way of showing that harmonic
-**[48:33]** motion is the only one that is independent
-of the amplitude or the energy equivalent.
-**[48:38]** For the moment, I want to point out that our
-statements here are borne out, independent
-**[48:44]** phase trajectories, different phase trajectories,
-do not intersect themselves, and each phase
-**[48:50]** trajectory that is a closed orbit corresponds
-to periodic motion; that is it.
-**[48:55]** We would like to show that the time period
-is independent of the amplitude; we would
-**[48:59]** like to see if we can do that without doing
-any hard work. Is there a simple way of doing
-**[49:05]** this? Of course, you can solve the harmonic
-oscillator problem, it is very trivial moment
-**[49:09]** the moment you solve it, but is there is a
-simple way of doing this? There is simple
-**[49:12]** way of understanding that there is no time
-dependence, no amplitude dependence on the
-**[49:17]** time period. By the way, could you write down
-a formula for the time period from this phase
-**[49:23]** trajectory?
-Notice, that I have not solved the equation
-**[49:29]** of motion. I have not started writing cosines
-sines or anything like that; I have just looked
-**[49:35]** at the phase trajectory and that is sufficient
-actually, because what it is telling me is
-**[49:40]** that an oscillator, which starts here or here
-or here or here, anywhere on this trajectory,
-**[49:45]** they are just minor changes in initial conditions,
-the motion is exactly the same. So one of
-**[49:51]** the primary advantages of looking at phase
-trajectory is that you do not have to worry
-**[49:55]** about specific initial conditions; we are
-not so worried about that.
-**[50:00]** And in the case of one degree of freedom,
-we were able to write down the phase trajectory
-**[50:06]** immediately. We did not solve the equations
-of motion. You are able to integrate this
-**[50:12]** directly. If you have a conservative system
-- mechanical system - we know the total energy
-**[50:18]** is constant. If therefore, you write the total
-energy equal to constant and I write this
-**[50:23]** equation.
-**[50:24]** I write one half mv square plus v of q equal
-to constant e, this specifies the phase trajectory
-**[50:36]** already. Because to specify a curve on a plane,
-I need one equation between two variables
-**[50:44]** and this provides it; there is nothing more
-to be done. What happens if I have 2 degrees
-**[50:52]** of freedom? I have a problem with q 1 and
-q 2. Then, of course, as you can see the independent
-**[51:01]** degrees of freedom q 1 and q 2 and associated
-with it there will be a q 1 and a q 2 dot,
-**[51:07]** what is a dimensionality of phase space in
-this problem? It is four; so I cannot draw
-**[51:13]** picture of this kind. But the phase trajectory
-after I solve the equations of motion would
-**[51:20]** still be a one-dimensional object, in a four
-dimensional space, and the same thing goes
-**[51:26]** through the phase trajectories cannot intersect
-themselves, any closed phase trajectories
-**[51:30]** periodic motion, and so on. But is it enough
-to find one constant of the motion in that
-**[51:37]** problem? Would that suffice to tell you what
-the trajectory is? No. Between four variables,
-**[51:45]** you have one equation, you do not specify
-a curve; you specify a three-dimensional surface.
-**[51:54]** How many independent equations do you need
-before you can specify a curve? I have some
-**[52:03]** functions, suppose I say phi 1 equal to c
-1; I discovered a constant of the motion;
-**[52:10]** some function of q 1, q 1 dot, q 2, q 2 dot
-is constant, may be the total energy discovered,
-**[52:15]** let us say, and if get an equation of this
-kind, this is going to specify in q 1 q 2
-**[52:23]** q 1 dot q 2 dot space a four-dimensional object,
-a three-dimensional hyper surface.
-**[52:29]** But I need a phase trajectory. I, therefore,
-need, yes, I therefore need more constants
-**[52:33]** of the motion. I need a phi 2 of this c 2
-and I need a phi 3 of this; I need all these
-**[52:44]** three and the mutual intersection of these
-constant surfaces could give me the line,
-**[52:50]** could give me the phase trajectory. So you
-begin to see already that is not a trivial
-**[52:55]** matter to solve problems with more degrees
-of freedom than one or two; already with two
-**[53:00]** it becomes complicated. If it is of the order
-of Avogadro's number, as in the gas in this
-**[53:08]** room, it is a hopeless task. So our trick
-would be not to attempt, could not be to solve
-**[53:16]** equations of motion in general, except for
-simple system.
-**[53:19]** But we need to go little bit further with
-this see how we can find the constants of
-**[53:22]** the motion what we need to do do so. But this
-should be clear already that you need more
-**[53:29]** constants of the motion; the more you find
-the closer you are to solving the problem.
-**[53:34]** But with one degree of freedom; if it is a
-conservative system the fact that the total
-**[53:39]** energy of the constant of the motion is enough;
-if you write this energy as the function of
-**[53:44]** the coordinate and the velocity, the job is
-in principle done, complete. We will write
-**[53:57]** down phase trajectories and see what they
-look like. What if I change the sign of this
-**[54:06]** potential? What if for shear perversity, I
-wrote this as minus...What would this motion
-**[54:16]** look like minus half? What could this look
-like? We have to be a little cautious.
-**[54:27]** In the case of the harmonic oscillator, if
-I plot q versus v of q this is one half m
-**[54:36]** omega squared q squared, this was parabolic,
-and then the motion took place as if you had
-**[54:44]** a particle moving in this well, in this potential
-well, back and forth. So for any given specified
-**[54:50]** total energy, this was the amplitude of the
-particle and the particle moves back and forth
-**[54:54]** here; when it is here, it is all potential
-energy; when it is here, it is all kinetic
-**[54:59]** energy, because a potential is 0; and when
-it is here, its again all potential energy;
-**[55:05]** it moves back and forth, and this was simple
-harmonic motion. And then, we found the corresponding
-**[55:10]** phase trajectories; so here is q and here
-is q dot; we found these phase trajectories
-**[55:18]** was simply ellipses, concentric ellipses.
-What happens if I took this potential and
-**[55:33]** inverted the sign? So this is an inverted
-parabola. What would this motion look like?
-**[55:44]** Let us try to guess. So here is q dot, here
-is q, if the particle starts with q equal
-**[56:02]** to 0 and q dot equal to 0, it stays there;
-it stays there, because there is no change
-**[56:10]** any more.
-**[56:10]** Remember the equations of motion, always.
-So the equations of motion are q dot is v
-**[56:16]** and v dot is equal to minus v prime of q over
-m. So if it starts at the origin with zero
-**[56:30]** velocity, if this is 0, then and that 0; this
-is an extremum of the potential; the maximum
-**[56:35]** of the potential at the origin. Therefore,
-this quantity is 0 and that is 0 to start
-**[56:40]** with here. Therefore, neither q nor v can
-change with time, because both the derivatives
-**[56:45]** are 0 to start with and remains 0. So the
-particle would remain here at this point.
-**[56:55]** On the other hand, if you start it with a
-slight positive velocity at this point, what
-**[56:59]** would happen? It would just roll down this
-hill and escape to infinity. If you start
-**[57:06]** it here with a slight negative velocity, it
-will roll down this hill and escape to minus
-**[57:11]** infinity. Does this correspond to periodic
-motion? The motion, there is no periodic motion
-**[57:18]** here at all. Therefore, the trajectories cannot
-be closed phase trajectories.
-**[57:24]** So what would they look like? What would they
-look like? They would look like hyperbolas,
-**[57:33]** and you can do that very easily, because in
-this case we know that the equation of motion
-**[57:38]** says that one-half... let me just write q
-dot q dot squared minus 1 q squared equal
-**[57:48]** to constant; the total energy. Now, that thing
-suggests immediately that this is a hyperbola.
-**[58:01]** You know x squared minus y squared equal to
-constant hyperbolas, family of hyperbolas
-**[58:04]** and they are not closed curves, they are open
-curves. What do they look like? What would
-**[58:13]** they look like here? So think physically.
-I start at this point at q equal to 0, but
-**[58:24]** I give it a slight initial positive velocity.
-So I am really here, at this point, and then
-**[58:31]** q increases as a function of time. What happens
-to q dot? It also increases in the forward
-**[58:42]** direction. So where does this guy go? Goes
-off in this fashion. Now what happens if I
-**[58:50]** start here and push it to the left? q decreases.
-Then what happens? So what should I draw?
-**[59:07]** So we are here and then where does it go?
-It goes from here in this fashion.
-**[59:18]** What happens if I start at infinity and give
-just enough energy to crawl up this well and
-**[59:23]** reach this point? What would then happen?
-Well it would crawl up here and end here.
-**[59:34]** Then, of course, if it stop exactly at this
-point. If I gave it a little more energy,
-**[59:42]** it would go with the barrier to the other
-side. So what is the complete set of phase
-**[59:46]** trajectory look like? They are only half trajectories.
-What would complete set look like? You must
-**[59:54]** look at all possible initial conditions. By
-the way, the motion on this, goes in this
-**[59:59]** direction, goes in this direction. These would
-getting completed, so you would have this
-**[60:11]** is part of a half trajectory, gradiates like
-this, in this fashion; it is a families of
-**[60:25]** trajectories.
-I would like you to tell me if this is correct
-**[60:30]** - If this picture is correct - and to complete
-this phase portrait. The full set of phase
-**[60:36]** trajectories, all different kinds of phase
-trajectories is called the phase portrait.
-**[60:40]** And the phase portrait for the simple harmonic
-oscillator was very simple; it was just family
-**[60:45]** of concentric ellipses. The phase portrait
-for this inverted parabolic potential does
-**[60:50]** not have any close trajectories. No periodic
-motion, it consists of hyperbolas, but you
-**[60:55]** have to tell me what these hyperbolas look
-like.
-**[60:58]** The other thing you have to tell me, is whether
-you could have negative energies in this problem.
-**[61:02]** It has no motion corresponding to a negative
-energy in this problem. Remember if I took
-**[61:08]** any total energy to be negative, and this
-is the potential energy, this would imply
-**[61:14]** the kinetic energy is negative, which is not
-possible, because that is a square of the
-**[61:18]** velocity. So, no physical motion happens for
-less than for e less than 0; equal to 0 you
-**[61:25]** are at the equilibrium point and e greater
-than 0, you have physical periodic motion.
-**[61:31]** In this problem, in contrast, you could have
-e less than 0; you could have a total energy
-**[61:37]** which is this and this implies that it could
-be anywhere in space, in coordinate space,
-**[61:47]** except between these two points, because between
-these two points if this is a total energy,
-**[61:53]** and that is the potential energy, the kinetic
-energy is negative, which is not allowed.
-**[61:59]** So this would be the allowed region for you,
-either on this side or on that side, but for
-**[62:05]** e greater than 0, you can be anywhere.
-Pardon me. So this is what I would like you
-**[62:14]** to complete. You need to complete in this
-problem a typical phase trajectory for e less
-**[62:20]** than 0, the phase trajectory or trajectories
-for e greater than or equal to 0, and the
-**[62:26]** phase trajectory for e greater than 0. So
-you need to complete that and this not altogether
-**[62:33]** trivial. There are three possible kinds of
-e negative, positive, as well as 0, and when
-**[62:42]** e is 0, remember, you can have a trajectory
-which corresponds to just this point.
-**[62:48]** But you could also have other trajectories,
-because if you put e equal to 0 on the right
-**[62:54]** hand side it says q dot squared, apart from
-constants, is equal to q squared. Therefore,
-**[63:00]** q dot is plus or minus q with a certain slope;
-these are lines which go through the origin
-**[63:06]** asymptotically and we will see this, what
-happens. So already you begin to see, that
-**[63:13]** the phase plane analysis is much more powerful
-than trying to solve the equations of motion,
-**[63:17]** but at the same time it tells you the difference
-between qualitatively different kinds of dynamical
-**[63:24]** behavior, some of which would be stable, some
-would be unstable, and so on.
-**[63:29]** Now, we take it from this point next time,
-where we will complete this phase trajectory,
-**[63:34]** this phase portrait, and then see what happens
-in higher numbers of degrees of freedom. And
-**[63:39]** the other thing I would like to do is to show
-you that in this particular problem, in the
-**[63:43]** case of the single simple harmonic oscillator,
-there is a very simple dimensional argument,
-**[63:47]** which will tell you that the time period is
-independent of the amplitude. Of course, as
-**[63:53]** a caution, there are the potentials which
-would do this, but they are much more complicated
-**[63:56]** and I will introduce a few of them as we go
-along.
+**[1:04]** So, we start with most the basic concepts
+of all in physics - mass, length and time.
+**[1:13]** And I would like to start by asking you to
+imagine that we have no tools, no mathematics,
+**[1:21]** no physics, no equations, but just our senses,
+nothing more than that, and we ask - what
+**[1:29]** kind of masses, lengths, and times can be
+perceived with just our senses and nothing
+**[1:34]** more than that; so no instruments of any kind,
+and no analysis of any kind; just our bare
+**[1:40]** senses.
+**[1:41]** And let us start with mass, for example, and
+ask in terms of masses - we will use standard
+**[1:50]** international units throughout - what is the
+smallest mass that you think you can estimate?
+**[1:56]** By holding it, weighing it in this fashion,
+like this... what you think is a smallest
+**[2:02]** mass?
+A gram, one gram.
+**[2:07]** A gram, certainly, a gram, you can tell. You
+can tell the difference between a gram and
+**[2:10]** a kilogram, with our intuition. How about
+a nanogram and a picogram? Could you tell
+**[2:16]** the difference? You could not do this; certainly,
+a fraction of a gram would be a safe estimate.
+**[2:22]** So let us put this down - mass in kilograms;
+let us put this down, and say that you can
+**[2:29]** start estimating something which is of the
+order of a gram or may be a fraction of a
+**[2:35]** gram - so that is 10 to the minus 4 kilograms.
+And what is the heaviest mass you think you
+**[2:41]** could estimate? 10 kilograms? You could certainly
+tell the difference between 10 kilograms,
+**[2:49]** and a 100 kilograms? certainly. How about
+a 1000 kilograms?
+**[2:54]** You will not be able to lift it.
+Well you will not be able to lift it - that
+**[3:00]** is a good point, and in fact, if I gave you
+a lump of metal, and did not tell you it is
+**[3:05]** density, then you have no way of knowing whether
+it is 10,000 kilograms or 100,000 kilograms
+**[3:09]** or a 10,00,000 kilograms, at all. So, whatever
+you can push just about is the upper limit;
+**[3:16]** may be 100 kilograms; let us play safe and
+have another order of magnitude - a 1000 kilograms.
+**[3:22]** So that is 10 to the 3 kilograms - the upper
+limit of what you can do with just your senses.
+**[3:32]** What about length? Let us measure this in
+meters. What you think is the smallest length
+**[3:42]** you could perceive with your eye - with a
+naked eye? A fraction of a millimeter; may
+**[3:47]** be half a millimeter or something like that.
+So we will play it safe, once again, and I
+**[3:52]** am going to say that a millimeter is 10 to
+the minus 3 and I say that a very sharp resolving
+**[3:56]** power, so 10 to the minus 4 meters, for example,
+up to....
+**[4:01]** And what is the longest distance that you
+could estimate, without instruments? Well,
+**[4:11]** you could not tell the difference between
+the distance to a planet and distance to a
+**[4:14]** star with a naked eye, unless you have other
+piece of information. And on a clear day,
+**[4:19]** if you stand on a very clear place, and look
+up from a mountain peak, you could perhaps
+**[4:24]** see 10 kilometers. But you see, the point
+is, if you did not have other objects for
+**[4:29]** reference, you have no way of estimating how
+far things are; if you had a blank wall with
+**[4:34]** no texture on it, and no signs, no signs,
+no way of distinguishing what relative scales
+**[4:41]** are and so on, then you have no way of knowing
+how far things really are. But perhaps 10
+**[4:46]** kilometers is a good estimate; you certainly
+cannot tell the difference between a 1000
+**[4:49]** kilometers and a 100 kilometers.
+Sir, you are not allowed to run?
+**[4:54]** Pardon me.
+You are not allowed to run?
+**[4:57]** No, I am saying with your bare senses, and
+that is it. Of course, if you start running,
+**[5:01]** and you say, what, you know, endurance is
+and so on, that is a different story; but
+**[5:03]** let us just say, you are standing and you
+are trying to do an experiment, to see how
+**[5:07]** far you can see. 10 kilometers, safe thing,
+that is about 10 to the 4. These are just
+**[5:13]** orders of magnitude - 10 to the 4 meters.
+And what about time? What is the smallest
+**[5:20]** time that you could perceive, in seconds?
+Oh! the blink of an eye lid. Certainly a pulse
+**[5:29]** is of the order of a second, but you can measure
+time scales smaller than that, the blink of
+**[5:33]** an eyelid, that is about how much?
+A fraction of a second 10 to the minus 1 seconds;
+**[5:42]** 10 to the minus 1 seconds.
+Incidentally, while we are talking about it,
+**[5:46]** why do we blink?
+**[5:52]** You would like to have clear layers? Certainly,
+you would like to clean the eye every now
+**[5:56]** and then, you would like to have a layer.
+But how is it that when I blink, I am sorry,
+**[5:59]** I am going to go off into digressions of this
+kind, how is it when you blink things do not
+**[6:03]** go off?
+**[6:09]** Yes, but if I did this experiment, we blink
+in a tenth of a second, now, and we blink
+**[6:18]** may be every 5 seconds or so; every 5 seconds
+if I switched off the lights in this room,
+**[6:22]** it will be tremendously distracting to you;
+this can be done; this a very easy experiment
+**[6:28]** to do. You find it tremendously distracting,
+if every 5 or 10 seconds lights went off for
+**[6:33]** a tenth of... a tenth of a second at a time
+-- that is what you do when you blink. But
+**[6:37]** it does not happen when we see, when we look
+around. Why do you think that is the case?
+**[6:40]** Probably got used to...the brain got used
+to...
+**[6:43]** So close answer; it is a close answer. The
+processing section of the brain closes down
+**[6:48]** simultaneously; otherwise, you will not have
+this feature at all; very cleverly designed;
+**[6:54]** it will be tremendously distracting otherwise.
+So even the processing center closes down;
+**[7:00]** that is the reason, why you do not feel that
+you are blinking, unless you do it consciously,
+**[7:04]** of course; close your eye, then of course,
+you know that it is dark and so on. But otherwise,
+**[7:09]** reflex blink, you do not see as a shutting
+off of the lights at all, because even the
+**[7:13]** processing is not done during this period.
+Well, anyway to come back here, it is a tenth
+**[7:17]** of a second, here. What is the longest time
+that you can actually perceive without any
+**[7:24]** instruments, without any external signal,
+without the seasons, without the stars, and
+**[7:28]** so on? Little more than an hour. People have
+done this experiment -- they have actually
+**[7:33]** put people in cells, with all the comforts
+of life provided; with uniform lighting so
+**[7:38]** they cannot tell the difference between night
+and day; with the same bland foods, so you
+**[7:43]** cannot tell whether it is, you know, breakfast
+or lunch or dinner and so on, provided there
+**[7:46]** in a cavity, you open up this recess and you
+get this food, very familiar from the hostel
+**[7:51]** life, right? They are trying to get you to
+used to this.
+**[7:55]** And then, you are supposed to go and press
+a button every two hours or so, and pretty
+**[7:59]** soon you realize that the experimental subjects
+starts pressing the button every 3 hours or
+**[8:03]** so, or every 4 hours or so. So, she assumes
+that a certain amount of time - 2 hours - has
+**[8:09]** elapsed, when really 3 or 4 or 5 hours have
+elapsed, and eventually even the rhythms of
+**[8:14]** the body get knocked out, and gradually all
+the cycles change, and I think this experiment
+**[8:19]** has been done, and people have gone to the
+stage, where they find, they think a day is
+**[8:24]** like 50 hours long. So your perception of
+time goes off, unless you have other indications,
+**[8:31]** you have other longer cycles and so on, but
+even the physiological cycles changed, everything
+**[8:36]** changes along with this.
+So, I would say, may be you can tell the difference
+**[8:40]** between a month and a year, but you certainly
+cannot tell the difference beyond that. We
+**[8:45]** will play it safe once again, and say this
+whole thing on the right hand side - the upper
+**[8:50]** limit - is of the order of a 100 days, for
+instance, and a day is about 10 to the 5 seconds,
+**[8:57]** so 100 days is about 10 to the 7 seconds.
+That is the world of middle dimensions, the
+**[9:05]** world in which we have some intuition. But
+now, we start asking - what does the universe
+**[9:11]** do? On what scale is that operating? Then,
+of course, you are in for a tremendous surprise.
+**[9:19]** This is the world of middle dimensions; I
+would like to put this in quotation marks,
+**[9:22]** the macroscopic world in which we live, which
+we have got used to. There are other parameters;
+**[9:30]** there are other physical variables like velocities
+and so on, which also have comparable numbers,
+**[9:36]** but we have started with mass, length, and
+time, and let us stick to that.
+**[9:39]** Now, what do you think is the smallest mass
+that we know of with our instruments, whatever
+**[9:44]** we have detected? What is the smallest mass
+we have detected? What do you think is the
+**[9:48]** smallest mass you know of?
+We have gone smaller than that. An electron
+**[9:57]** is certainly is less massive than a proton,
+so it is... how much is that? About 10 to
+**[10:03]** the minus 30 kilograms. Let us say 10 to the
+minus 30; we do not know of particles with
+**[10:07]** smaller masses than that at the moment. But
+let us say 10 to the minus 30; this is the
+**[10:14]** mass of an electron and there is a vast gap
+between these two guys.
+**[10:22]** On the upper limit, what is the largest mass
+you can think of? The mass of the known universe.
+**[10:31]** Certainly all the matter in the universe;
+we do not know how to estimate this; we do
+**[10:34]** not the size of the universe too well. Now,
+what you think we should write here? How big
+**[10:38]** do you think it is?
+Now, we could do the following: we could assume
+**[10:43]** that we have a whole lot of stars and try
+to estimate the total mass of the stars; the
+**[10:48]** total mass of all the stars would mean multiplying
+the number of stars by an average star - like
+**[10:54]** the sun, for instance. Now what is the mass
+of the sun?
+**[10:57]** About 10 to the 30 kilograms.
+About 10 to the 30 kilograms; we could estimate
+**[11:02]** this, and remember, the way we would do this,
+is always to assume that you are on a desert
+**[11:07]** island with no information, no Wikipedia,
+no internet, and you have only sand to write
+**[11:13]** on, and you need to make all these estimates
+for your survival; this is the way to learn
+**[11:17]** any subject; you are compelled to do this.
+Then, of course, I could start by saying the
+**[11:21]** sun is a hot ball of gas, I estimate the average
+density of a gas, multiply it by its size,
+**[11:26]** and then so on and so forth. But 10 to the
+30 is about right; 10 to the 30 kilograms.
+**[11:30]** And how many stars are there?
+About 10 to the 22.
+**[11:34]** About 10 to the 22; there are 10 to the 11
+galaxies, and about 10 to the 11 stars in
+**[11:38]** each galaxy; so that gives us 10 to the 52;
+and this thing here, is an estimate. Of course,
+**[11:44]** you could do this in another way; you could
+start by asking what was the density, what
+**[11:49]** is the density of matter? Known matter, ordinary
+matter in the universe, and then you could
+**[11:54]** multiply this by the radius of the known universe;
+you can multiply this by the size.
+**[12:00]** Now what is the size of this universe? That
+is a very tricky question, very tricky question;
+**[12:05]** it depends on what you mean by size. You could
+say a very naïve way of doing this would
+**[12:10]** be to say - well I know the age of the universe
+and what is the age of the universe?
+**[12:16]** 18.7 billion years.
+18.7 billion years old; 0.7 that is important;
+**[12:19]** it is known; it is established. The first
+decimal point is known, you multiply that
+**[12:26]** by a light year, because it is that old and
+this would mean that this is like a radius
+**[12:31]** of the edge of a universe, stars are receding
+from you at the speed of light, essentially.
+**[12:37]** So this is a good estimate; and when you make
+that estimate, it turns out that the answer
+**[12:41]** is about 10 to the 52, once again comes right
+there.
+**[12:44]** There are other ways of doing this. Of course,
+this assumes that you are at the center of
+**[12:48]** the universe and the rest of it is simply
+expanding away from you; but that is not necessarily
+**[12:53]** true at all. But there are similar estimates,
+which would tell you the commoving radius
+**[12:59]** of the universe, and it is of the order of
+10 to the... 10 to the... it is of the order
+**[13:04]** of 40 billion light years or so, it is in
+the same ball park; and therefore, the whole
+**[13:10]** thing is... we will assume this 10 to the
+52 this side; of course, there is dark matter,
+**[13:15]** there is dark energy and so on, and forget
+about that, but whatever it is, for the purposes
+**[13:19]** of this argument it is of the order of 10
+to the 52, roughly.
+**[13:23]** Now, what about length? What is the smallest
+length that you know of?
+**[13:32]** Certainly experiments on electrons have told
+you, that there are no structure whatsoever.
+**[13:36]** We have done nuclear physics, we know the
+size of a nucleus is 10 to the minus 15 meters
+**[13:40]** - femtometer; if you go beyond that, inside
+the nucleus etcetera, but we can construct,
+**[13:48]** we can conceive of an extremely small length
+from the three fundamental constants of nature
+**[13:52]** - Planck's constant, speed of light in vacuum,
+and Newton's gravitational constant - these
+**[14:00]** are the three fundamental constants of nature
+and they are very, very important.
+**[14:05]** So you have Planck's constant, speed of
+light, and Newton's gravitational constant
+**[14:10]** - those are the natural constants; mass, length,
+and time are some things, which we have created
+**[14:16]** in some sense, but the constants we have available
+in nature have different dimensionalities;
+**[14:22]** not mass, length, and time necessarily.
+What are the dimensions, physical dimensions,
+**[14:27]** of Planck's constant?
+**[14:29]** Joules/second is units. Now what are the dimensions?
+It is energy multiplied by time; so its ml
+**[14:41]** squared t to the minus 1, and c is, of course
+lt inverse, and gu you can find from Newton's
+**[14:48]** force equation. So with these three constants,
+it is clear you can create three numbers - three
+**[14:55]** combinations - which have dimensions of mass,
+length, and time, and they would be called
+**[14:59]** the Planck length, the Planck mass, and the
+Planck time. And the Planck length turns out
+**[15:05]** to be of the order of 10 to the minus 35 meters.
+Construct this as an exercise - a combination
+**[15:13]** of h, c, and g which has dimensions of length,
+and that is of the order of 10 to the minus
+**[15:21]** 35 seconds.
+**[15:22]** So, this is l - Planck, much, much smaller
+than this. And what is the longest, largest
+**[15:33]** length we can think of? The radius of the
+universe. We have got various estimates for
+**[15:38]** the size of the universe, but it is an upper
+bound; we do not even know if it is finite
+**[15:41]** or not, but let us write this down as 10 to
+the power may be 35 or 26 meters, very roughly;
+**[15:52]** but is enormous, as you can see.
+What about this? What about time? Again, Planck
+**[15:59]** time is the smallest time we could construct,
+we could think of as time itself, and that
+**[16:04]** turns out to be the order of 10 to the minus
+42 seconds, and this is t. This here, I should
+**[16:18]** write mass of the universe; and this is radius,
+these are on quotation marks; and what is
+**[16:33]** the longest time that you could think of?
+The age of the universe.
+**[16:37]** The age of the universe, which is 13.7 billion
+years; therefore, this thing here is about
+**[16:43]** 10 to the 10 years, which is 10 to the 10
+multiplied by 10 to the 7; so 10 to the 17
+**[16:51]** seconds; of the order of 10 to the 17 seconds
+- age of the universe. But remember, these
+**[17:06]** are orders of magnitude. Now just think, this
+range here is invariably about 7 to 8 orders
+**[17:15]** of magnitude, give or take 1 or 2 orders of
+magnitude, very tiny window, but nature is
+**[17:22]** operating on a much, much bigger scale; it
+is operating on a length scale, mass scale,
+**[17:27]** which is like 80 orders of magnitude, to the
+extent we know about. A length scale, which
+**[17:35]** is at least 60 orders of magnitude possibly
+much, much more, may be even infinity.
+**[17:40]** In a time scale, which as of now is already
+about 60 orders of magnitude, could become
+**[17:51]** much, much larger. And these are orders of
+magnitude, these are not just factors; you
+**[17:56]** are not just doubling or tripling the range,
+you are actually multiplying by 10 each time,
+**[18:01]** and this is absolutely incredible, and it
+is just mind blowing to see the range on which
+**[18:09]** nature is operating.
+Therefore, I put it to you, any intuition,
+**[18:15]** which you develop to conduct your daily lives
+in this world of middle dimensions, there
+**[18:22]** is no reason why that should continue to hold
+in this range; there is no reason at all,
+**[18:29]** and the so-called understanding of classical
+physics, the intuition you develop, and so
+**[18:34]** on, the physical intuition is a myth; it is
+simply something, which has been hardwired
+**[18:42]** into your brains for reasons quite different
+from the understanding of nature. Therefore,
+**[18:47]** there is no reason to expect that whatever
+loss, whatever regularity you find in this
+**[18:53]** range of orders of magnitude should continue
+to hold good in this range, within this range,
+**[18:59]** and indeed, it does not.
+So with the induction of instruments - microscopes
+**[19:07]** on the one hand, and telescopes on the other
+- you are really able to broaden your range
+**[19:12]** in which you can probe nature; all the way
+from this side to that side. And simultaneously
+**[19:19]** it turns out you need other tools - you need
+mathematical tools; it turns out in order
+**[19:25]** to understand how nature operates in this
+scale. So the real miracle is that you have
+**[19:32]** a language, and you have the means to understand
+this range in some sense, even though it is
+**[19:37]** not necessary for survival.
+Now, you could ask - why is it that I cannot
+**[19:44]** perceive of times smaller than this? Why is
+it that I cannot look at... I cannot tell
+**[19:49]** the difference between a picosecond and a
+nanosecond? Why do you think that is the case?
+**[19:55]** You did not need it; you do not need it for
+survival; you do not need it evolutionarily
+**[20:01]** for survival. The time scales you needed to
+put it, very crudely, this is a delicate question,
+**[20:06]** but you can give a very rough, very crude
+argument - after all it was all about survival
+**[20:12]** and what you needed was to have a reflex time,
+that was sufficiently fast to ensure your
+**[20:17]** survival.
+So, to put it in very, very graphic terms
+**[20:22]** - certainly, not to be taken literally - our
+primate ancestors had to make sure they did
+**[20:27]** not fall down into the jaws of predators.
+Depending on the gravity, the rate of fall
+**[20:34]** is controlled entirely by the gravity, depending
+on that you needed time, when you let go of
+**[20:41]** your mother ape and you started falling, you
+needed time for the muscles of the hand to
+**[20:48]** send a message to your brain, and the brain
+to send a message back to the muscle to say
+**[20:51]** - hold on or you going to fall down. A fraction
+of a second was sufficient for that; you did
+**[20:58]** not need a picosecond, you did not need a
+femtoseond. So you did not have to waste brain
+**[21:03]** power and neurons processing that information,
+you got hardwired into this world, and that
+**[21:10]** was enough on this side.
+All these things are guided by that. Mass,
+**[21:17]** for example, you do not need to know the difference
+between a microgram and a picogram, but you
+**[21:21]** do need to know the difference between a gram
+and a kilogram. And once again, in this metaphorical
+**[21:28]** language, it is essential to know, it was
+essential for our ancestors to know, that
+**[21:34]** you have to be much more effective to throw
+a rock at a predator rather than a leaf.
+**[21:38]** So, they had to know the difference between
+a gram and a kilogram; they did not need to
+**[21:44]** know the difference between a microgram and
+a picogram. And that is why the brain did
+**[21:49]** not waste any time trying to process information
+from this range or on that range, and this
+**[21:55]** is why we would think you understand Newtonian
+physics, because you see masses, you see,
+**[21:59]** as you see time, you can actually push these
+rocks around and so on.
+**[22:03]** But I put it to you that there is nothing
+intuitive about it; it took a long, long time
+**[22:08]** to discover that when you push an object,
+you change its velocity and not its position,
+**[22:13]** then you change its position as a consequence
+of changing its velocity. After all Newton's
+**[22:19]** law says the force is proportional to the
+rate of change of momentum or the velocity
+**[22:24]** not the position; only bacteria, which are
+swimming in a nucleon fluid at terminal velocity
+**[22:30]** only for them is the force propositional to
+the velocity, but nor for us. So even Newton's
+**[22:37]** law is counter intuitive, very counter intuitive,
+and its consequences can be equally dramatic.
+**[22:45]** So do not confuse facility in a certain range
+of mass, length, and time with understanding
+**[22:52]** of this range of length, mass, and time - they
+are very different things. And it turns out,
+**[22:58]** that the language you need for understanding,
+making predictions is mathematical, inherently
+**[23:04]** mathematical, we do not know why, we do not
+know the deep reason why. We have no reason,
+**[23:09]** we do not understand as yet, why it is that
+our brains, which are hardwired evolutionarily
+**[23:15]** for survival in a certain range of parameters,
+has been able to come out with directions
+**[23:22]** using a language and abstraction called mathematics,
+which enables it to probe the rest of the
+**[23:28]** region. And why it is that with the aid of
+these instruments which we have developed,
+**[23:34]** we are actually able to investigate the rest
+of this range - a good bit of the range - and
+**[23:40]** understand it in some codified sense. So it
+is not a... that is a surprise; that is a
+**[23:46]** surprise.
+Not the fact that electrons behave like waves
+**[23:49]** or like particles or whatever you might have
+heard, not the fact that Newton's inverse
+**[23:54]** square law of gravitation, although universal
+is actually an approximation - these are not
+**[23:59]** surprises, really; it would be a surprise
+if it were not so. If everything was decided
+**[24:04]** by a few simple equations, that would be a
+surprise, no reason why that should be so
+**[24:08]** and it is not so; just is not so.
+So classical physics is one portion of this
+**[24:16]** range, which we will be enabled to uncover
+using rather simple rules, but not necessarily
+**[24:22]** trivial rules fairly complicated rules. And
+as the course goes along, I will show you
+**[24:27]** that classical dynamics is actually quite
+intricate; has very, very precise structure,
+**[24:32]** a very interesting structure; and that quantum
+mechanics is a very non trivial extension
+**[24:38]** of this; and the relationship between the
+two is not yet fully understood; we do not
+**[24:43]** fully understand what is going on in quantum
+mechanics in a certain sense, but I will also
+**[24:47]** point out, that enough people have sensed,
+that quantum mechanics is easier than classical
+**[24:51]** dynamics, which is much more intricate mathematically,
+much more intricate.
+**[24:57]** And then, of course, there are other problems
+associated with rest of the curriculum, such
+**[25:03]** as statistical physics - what happens when
+you have large collections of objects? How
+**[25:06]** you understand them? Why you need probabilistic
+concepts? Why you at all need statistical
+**[25:12]** concepts? This is something which is worth
+understanding and it will turn out that we
+**[25:15]** will acquire at the end of this course, hopefully
+some perspective, why all this is happening,
+**[25:20]** and where we stand today, and what kind of
+progress we could expect, and this would have,
+**[25:24]** of course, come after you finish the next
+course. But for the moment, we will stick
+**[25:29]** to classical physics in which we will switch
+of Planck's constant, and this curriculum
+**[25:34]** also does not have much about gravitation,
+although I will mention this once in a while.
+**[25:38]** So it will be non relativistic, it will be
+non quantum mechanical, and of course, we
+**[25:44]** will ignore gravitation for some part, at
+least. So, it turns out that you might as
+**[25:48]** well set, you eliminate g, set c equal to
+infinity, and h equal to 0, and that would
+**[25:54]** be the classical physics we are go going to
+look at. But you must be aware, then these
+**[25:58]** are boundary conditions, these are limiting
+cases that rest of it is really part of a
+**[26:04]** much bigger hole. So this is what I would
+like to convey in the rest of this course.
+**[26:08]** So, is there any question on what I have done,
+said so far? Wherever necessary I will use
+**[26:14]** orders of magnitudes, estimates, and wherever
+we think we need to do something more rigorously,
+**[26:19]** we will look at those things; we will work
+out things much more explicitly. I will try
+**[26:23]** and do everything on the board, so that all
+equations are understood, understandable,
+**[26:28]** but there may be cases where I might just
+quote a result, quote, especially mathematical
+**[26:32]** results, I might once know well, quote them
+and say these are well known theorems, and
+**[26:36]** will not bother about proving them, but we
+will understand them, we assume that regular
+**[26:41]** proofs are available, and we will try to understand
+them on somewhat physical terms.
+**[26:47]** Now when I say physical, I would like to state,
+explain, that I do not mean necessarily mechanistic;
+**[26:56]** everything need not be mechanistic at all.
+For example, electric and magnetic fields
+**[27:01]** exist, we know that; they have classical limits,
+classical, electric, and magnetic field exists,
+**[27:06]** but you cannot give a mechanical model for
+it, not in terms of wheels, gears, pulleys,
+**[27:11]** and so on; this is not possible; they are
+fields; every point in space and time would
+**[27:17]** have a field, and they may or may not be detectable
+or perceptible to you with one instrument
+**[27:23]** or another, but it does not mean they do not
+have reality, they do not exist, they are
+**[27:28]** not hard objects like this. So the universe
+does not just consist of rigid bodies, just
+**[27:34]** does not consist of classical waves, there
+is much more to it than that.
+**[27:37]** For example, electromagnetic waves, which
+are already in that sense non-mechanical,
+**[27:42]** they already go beyond your normal mechanical
+intuition, and yet, they are completely classical
+**[27:47]** in a certain sense. So, you have to allow
+for larger possibilities as we go along. So
+**[27:53]** this is the sense in which I would says something
+is physical. I assume also, might as well
+**[27:58]** say this right in the beginning; I assume
+also you are familiar with complex numbers.
+**[28:02]** We will freely use as much mathematical tools
+as we can, and I have been asked this question
+**[28:09]** in the past - if all measurements are real,
+why do we need complex numbers? That is a
+**[28:14]** good question, but it should really be asked
+in class twelve; at that stage. It is just
+**[28:19]** that you need these numbers, you need matrices
+not real numbers, necessarily; you need combinations
+**[28:25]** of numbers; you need n tuples, multiples of
+numbers and so on, and complex numbers is
+**[28:30]** one such thing. So the word - imaginary number
+- does not mean anything as far as I am concerned.
+**[28:36]** So if you ask me - what is the physical meaning
+of 2 plus 3i? I would ask you what is the
+**[28:40]** physical meaning of minus 3; for that matter,
+what is the physical meaning of three halves
+**[28:48]** or what is the physical meaning of 3? These
+are all abstractions as you can understand,
+**[28:55]** and we try to put them into correspondence
+with physical objects, and that is all that
+**[28:59]** is being done. So it simply a code and this
+is the sense in which we would like to understand
+**[29:04]** things.
+Now, the first part of this course has to
+**[29:07]** do with dynamics, but before I do dynamics,
+I would like to mention here something along
+**[29:12]** the lines of what I have already said, and
+what comes beyond dynamics, and this is the
+**[29:17]** very famous picture, very famous diagram which
+I try to reproduce here in some sense.
+**[29:26]** You have, we will put the axis in a little
+later, you have a very, very slow velocities
+**[29:35]** compared to the speed of light, and on scales,
+length scales much bigger than atomic length
+**[29:43]** scales, microscopic length scales, you would
+have non relativistic physics in some sense
+**[29:51]** of macroscopic objects.
+So let us put a little box here, and say this
+**[29:56]** is the region, this is roughly the region
+of non-relativistic classical mechanics or
+**[30:09]** Newtonian mechanics. You could continue to
+remain non-relativistic, but you go, go into
+**[30:21]** domains, which are extremely small - atomic
+dimensions for instance, and then, you would
+**[30:25]** have quantum mechanics. So you would have
+here, I joining it, very blunt, very crudely,
+**[30:36]** you would have non-relativistic quantum mechanics.
+On the other hand, you could look at fairly
+**[30:46]** large objects, but go into high velocities
+in this direction, and then you would have
+**[30:52]** take into account relativistic corrections.
+This would happen typically in astrophysics;
+**[30:59]** for instance, you certainly you have to take
+into account relativistic corrections. You
+**[31:03]** would also might have to do this along with
+this thing here, along, for if you look at
+**[31:08]** motions of electrons, for example, but we
+will come to that in a minute.
+**[31:12]** So on this side you have relativistic mechanics
+or relativistic physics; you keep going, you
+**[31:24]** could include gravitational fields, very intense
+gravitational fields, and so on. You would
+**[31:28]** have special relativity, then you might have
+to make general relativistic corrections and
+**[31:32]** so on on this side, very schematically.
+But then, you could also go to very high speeds,
+**[31:38]** and very small objects, and then you would
+need relativistic quantum mechanics on this
+**[31:42]** side. And that is where a little bit of surprise
+comes in, because it turns out, that when
+**[31:56]** you do relativistic quantum mechanics, you
+could start with this kind of problems we
+**[32:00]** do in physics, academic problems, very idealized
+problems, just as in thermodynamics you start
+**[32:05]** by studying the ideal gas, there is no ideal
+gas in nature of course, everything interacts
+**[32:10]** with everything else.
+But just as you use that as a useful model,
+**[32:15]** similarly in quantum mechanics, you might
+study for example, the hydrogen atom - a single
+**[32:20]** hydrogen atom in the universe, it is a very,
+very simple idealized model and you could
+**[32:24]** study its quantum mechanics as well. So you
+could look at the problem of particle orbiting
+**[32:30]** around in a traction, a traction center here,
+and then, you could do this quantum mechanically;
+**[32:36]** you could do this relativistically. But the
+moment you go to relativistic quantum mechanics,
+**[32:41]** it turns out that a new phenomenon occurs,
+and this of course, is the famous equivalence
+**[32:46]** between matter and energy; it turns out that
+mass and energy are just two ways of saying
+**[32:52]** more or less the same thing.
+Since matter can be...matter and energy can
+**[32:57]** be inter-converted to each other, things like
+the number of particles is no longer a sacred
+**[33:05]** concept, when it comes to relativistic quantum
+mechanics, because matter and energy could
+**[33:10]** go on getting interchanged. Now, once that
+happens, you can easily see, you could expect
+**[33:17]** that there is no such thing as relativistic
+quantum mechanics for a single particle; it
+**[33:22]** is not likely to be consistent, simply because
+you could have many, many particles created,
+**[33:29]** a single particle is very, very energetic,
+and then annihilated once again, and reconverted
+**[33:33]** to energy.
+This happens under certain constraints and
+**[33:36]** conditions, but the principle is clear that
+this could happen, and therefore, it turns
+**[33:41]** out relativistic quantum mechanics is intrinsically
+not really constructed, and what you need
+**[33:47]** is the possibility that you can have any number
+of particles included in one single theory,
+**[33:53]** and that leads you to relativistic quantum
+field theory. So, really, this thing is superseded
+**[34:00]** by quantum field theory. And that has turned
+out to be the most successful language of
+**[34:14]** all, necessarily very intricate, very involved,
+but in principle, it explains all that you
+**[34:22]** know so far, and it is like the culmination,
+it is like the ultimate theory at this level
+**[34:27]** of understanding that we have now of all the
+universe around us.
+**[34:32]** But there are very, very important gaps; one
+of them, of course, is familiar to you from
+**[34:36]** reading popular literature. We found no way
+in which you can consistently combine relativistic
+**[34:42]** quantum field theory with gravitation. We
+do not yet know how to quantize gravity - that
+**[34:49]** is one problem. The other problem is the theory
+that we have now for elementary particles,
+**[34:56]** at the fundamental level, is called the standard
+model of particle physics - is itself an adhoc
+**[35:02]** theory. It is obviously and is very obvious
+from the fact that it has many undetermined
+**[35:07]** parameters, many parameters which you put
+in my hand, many constants, it is clear, it
+**[35:13]** cannot be a final theory of particle physics,
+there must be an underlying structure and
+**[35:18]** we do not know what that is; so it still incomplete,
+but the day is young, this whole thing is
+**[35:23]** about a 100 years old, as you can see; it
+started here about 400 years ago to reach
+**[35:28]** this fairly fast, and the day is young, there
+is a lot more to come.
+**[35:34]** But it is a good idea to have this perspective,
+that this is where it is at the moment, but
+**[35:40]** you do not necessarily need all the complications
+of relativistic quantum field theory if you
+**[35:45]** want to look at sub portions of this. For
+instance, if you want to design and this is
+**[35:50]** brings me to an important point - the whole
+thing is layered in such a way that depending
+**[35:56]** on the regime of physical parameters, depending
+on the physical problems we are looking at,
+**[36:02]** you might find it sufficient to use an effective
+theory; you do not have to use first principles
+**[36:08]** theories all the time. If you would like to
+design a better carburetor for your car, there
+**[36:15]** is no reason why you should know the underlying
+organic chemistry of the fuel; there is even
+**[36:23]** less reason to know that each molecule is
+made up of atoms, and each atom in fact is
+**[36:28]** made up of a nucleus and electrons, and inside
+the nucleus there are nucleons - the neutrons
+**[36:34]** and protons - and inside the neutrons there
+are quarks, and they are held together by
+**[36:37]** things called gluons; it is not necessary
+for you to know that in order to design a
+**[36:42]** better carburetor; although that is true.
+So this business of reductionism should also
+**[36:50]** be carefully examined, while you would like
+to have under have reductionism, go to first
+**[36:55]** causes in order to understand things from
+very basic principles, you must realize that
+**[37:01]** at every level of organization, there is a
+set of effective loss and this is really all
+**[37:06]** you need. The boundary between two regimes
+is very interesting. Always, these boundaries
+**[37:10]** are interesting, where classical mechanics
+stops and quantum mechanics starts is it a
+**[37:14]** fuzzy boundary, is it sharp? These are very
+interesting questions; where non relativistic
+**[37:18]** physics stops, relativistic physics starts
+off ? This is again a very interesting question.
+**[37:24]** On the other hand, inside a domain, you could
+have an effective theory. This is what happens,
+**[37:29]** if you study elementary chemistry, if you
+would like to understand reactions, you have
+**[37:33]** a law called the law of mass action; you can
+derive the law of mass action for more fundamental
+**[37:38]** considerations, but you do not effectively
+need to do this, if you want to understand
+**[37:42]** chemical reactions in the large. So this is
+another thing one must understand and appreciate
+**[37:48]** that although there are these fundamental
+theories, there may not be necessary in all
+**[37:55]** cases, in most cases they are not; what you
+need is an effective theory, an effective
+**[37:59]** model. And above all, you must recognize that
+when you take a whole lot of objects and put
+**[38:05]** them together, the sum, the product - the
+end product - may be greater than the sum
+**[38:11]** of the parts. There might be properties, which
+come out for a collection which do not exist
+**[38:18]** in each individual component.
+Individual atoms do not have colors, but when
+**[38:22]** I put a sufficient number of atoms together
+of an object, it acquires a color, for example,
+**[38:29]** and this is a property that emerges due to
+the fact, that you have a collection. And
+**[38:34]** then a very interesting question is that at
+what stage does the color emerge? And that
+**[38:38]** is true for every one of these properties
+-physical properties. So we must understand
+**[38:43]** that this is also possible.
+Individual water molecules do not do anything
+**[38:47]** very interesting, but when you put a large
+number of them together, it turns out depending
+**[38:52]** on the external conditions, they could exist
+in different phases; same interaction, the
+**[38:57]** same interaction between two water molecules
+under different conditions could give you
+**[39:02]** either ice or steam or water. So, clearly,
+this is a property of a collection and not
+**[39:08]** a property of an individual molecule - that
+is another crucial thing we must bear in mind,
+**[39:13]** that there are these properties, called emergent
+properties, which emerge when you put a lot
+**[39:17]** of things together, and one of our pre occupations
+is going to be with these properties. So this
+**[39:22]** is another thing, which I would like to write
+down here - emergent properties and effective,
+**[39:35]** effective modules - use this phrases once
+in a while to mean precisely what I have just
+**[39:49]** explained.
+For example, Newtonian mechanics is an effective
+**[39:57]** model in a certain regime are of parameters
+of length, mass, time, velocities, angular
+**[40:05]** momentums and so on; so is quantum mechanics
+as far as we know, it is possible that one
+**[40:10]** day it is subsumed into larger theory or a
+larger framework. But the difference between
+**[40:16]** physical laws and mathematical laws is precisely
+this - whereas, mathematical laws, once you
+**[40:21]** lay the axioms down would appear to be applicable
+in some absolute sense; physical laws are
+**[40:26]** always applicable in some range of physical
+parameters. You go beyond the range, the law
+**[40:32]** may or may not extrapolate in a smooth way,
+and this is also something which one should
+**[40:37]** bear in mind, because this is very often lost
+sight of, that is what leads to questions
+**[40:43]** of the kind - is the electron a wave or a
+particle? As we go along, I will convince
+**[40:47]** you that the question itself is meaningless.
+An electron is what it is, and what properties
+**[40:52]** it displays; in fact, that is going to be
+your attitude.
+**[40:57]** If I ask you what this piece of chalk is,
+every description, every definition that you
+**[41:03]** think you give for what this piece of chalk
+is, will be a statement of one of its properties.
+**[41:09]** So, I am not going to worry about what this
+chalk really is and use the word - the piece
+**[41:18]** of chalk - for a pre agreed upon collection
+of properties of this object. So that is going
+**[41:25]** to be shorthand for a collection of properties,
+which we have agreed upon. And then, of course,
+**[41:31]** you see there is no difficulty with defining
+any object.
+**[41:34]** An electron is shorthand for the collection
+of its properties; it might turn out, that
+**[41:40]** these properties would depend on how you probe
+these properties, and it does in this bigger
+**[41:45]** range that I talked about; and therefore,
+I have no conflict at all. And then the question
+**[41:51]** whether things like electrons are waves or
+particles, becomes question of semantics,
+**[41:55]** it becomes a question of failure of the words
+- wave and particle - to apply in that regime,
+**[42:01]** in an unambiguous manner
+I need another language, but I have one it
+**[42:06]** is called quantum mechanics. So I do not regard
+this wave particle duality as a mystery, I
+**[42:13]** just think it is a failure of ordinary language,
+and of course, it will be a very unhappy situation
+**[42:19]** if I did not have a language, instead of ordinary
+language, but fortunately for us we have discovered
+**[42:26]** there is such a language and we will use that
+language when the time comes.
+**[42:31]** So I hope you got our philosophy, right? The
+rest of it is not going to be so descriptive;
+**[42:36]** it is going to get considerably more quantitative.
+Let me stop once again, and pause and ask
+**[42:42]** you - is there any comment or question that
+you would like to ask now?
+**[42:45]** Sir, why is that the combination of h, c,
+and g gives the lower limits of the Planck's
+**[42:48]** length and Planck time?
+It is a 
+wonderful question - why is it - it is a deep
+**[43:00]** question, why is it that the combination of
+these three, gives the lower limits of what
+**[43:08]** we know and not the upper limits and so on.
+This is not a very, it is not a serious problem,
+**[43:16]** in the sense that I do not know the upper
+limits; I do not know, for example, if the
+**[43:20]** universe is finite or not, it is unbounded,
+but what I do know is that there is a fundamental
+**[43:27]** velocity - the speed of light, there is a
+fundamental quantum of action - Planck's
+**[43:33]** constant and there is g.
+Now, in the case of Planck's constant, it
+**[43:37]** turns out that this thing here actually describes
+certain fluctuations, certain indeterminacy,
+**[43:45]** which you are familiar with in the guise of
+the uncertainty principle, and its numerical
+**[43:52]** value is such that it happens to give you
+a applicable in the range of small, a very
+**[43:58]** small; this is where fluctuations would play
+a role; very rough answer, very rough answer,
+**[44:05]** but we will get more precise answers as we
+go along.
+**[44:08]** Now, of course, it is not always true that
+it gives a lower bound, if I look at mass,
+**[44:14]** for example, I was careful not to use this,
+I did not use the Planck mass. The Planck
+**[44:19]** mass, if I calculate, turns out to be of the
+order of 10 to the minus 5 grams; it is enormous
+**[44:24]** compared to elementary particles, it is huge.
+So we believe the Planck's constant has
+**[44:31]** something to do with fundamental at the lowest,
+at the reduction is ultimate level, it has
+**[44:35]** to do with fluctuations, and some microscopic
+level, sub microscopic level, and you would
+**[44:40]** expect the mass also to do this, but the actual
+masses of the elementary particles that we
+**[44:44]** know are often much, much smaller.
+So in a sense the Planck mass is a very large
+**[44:49]** mass, it is a huge mass, of course, we put
+objects together, you get much larger masses
+**[44:55]** like people, and galaxies, collections of
+galaxies and so on, and it could be infinite,
+**[45:01]** on the other hand. So it is not always true
+that it does give the lower limit, but in
+**[45:06]** the case of a length and time, it does because
+of a deeper reason, we believe that the Planck
+**[45:14]** length and the Planck mass, are in fact the
+length and time scales on which... that the
+**[45:20]** Planck length and Planck time are the length
+and time scales on which the concept of space
+**[45:27]** time as a continuum itself breaks off.
+So believe, we believe that below this, below
+**[45:34]** the Planck length, and below the Planck time,
+thinking of time and length as continuous
+**[45:42]** objects itself is suspect; we think the structure
+of space-time itself, could be very different
+**[45:49]** from what we know of it on much longer time
+scales and length scales; this is where quantum
+**[45:56]** fluctuations in space and time themselves,
+would start playing a role, and therefore,
+**[46:03]** the meaning of space, and the meaning of length,
+the meaning of time is not very clear.
+**[46:08]** So, that is the reason why it is, it is not
+a reason, that happened, that is why on the
+**[46:15]** lower, lower end, simply because below that
+it is fluctuation dominated, and after that
+**[46:19]** in some sense these fluctuations are smoothed
+out, and more much larger scales you do not
+**[46:23]** see, these fluctuations at all. It is like
+saying that if I give you a piece of paper
+**[46:28]** and tear it the edge is jagged, but then,
+of course, you could look at it from sufficiently
+**[46:32]** far away, it looks quite like a straight line,
+but I go closer and closer, I start seeing
+**[46:35]** the fluctuations more and more. So it is in
+the lower level that you start seeing fluctuations,
+**[46:39]** rather than on a close resolution; that is
+a very crude answer, but that is roughly what
+**[46:52]** it is.
+Any other thoughts? So as you can see, these
+**[46:58]** are not....
+This is precisely the point. I gave this example
+**[47:13]** of water going into ice or steam or liquid
+water; it is quite clear that you need a sufficiently
+**[47:22]** large number of molecules for this to happen,
+for you to be able to distinguish these phases,
+**[47:26]** it is equally clear that the phase of water,
+of the, you know, whether it is ice, solid,
+**[47:34]** liquid or gas, is not a property of a single
+molecule; that is obvious that is not. It
+**[47:39]** is a same molecules; even interaction between
+the molecules is exactly the same, and yet,
+**[47:45]** when you put aggregate together it exists
+in these three phases.
+**[47:49]** The interesting question is - how many should
+I put together before I can tell whether it
+**[47:54]** is liquid or gas so on? Can I have an ice
+crystal which has only 10 water molecules
+**[47:59]** or 50 or a 100 and so on? That is a much,
+much harder question. It turns out that there
+**[48:05]** is no clear boundary, in this sense, you could
+go on subdividing matter and then there comes
+**[48:10]** a stage when you to lose the concept of this
+phase. It happens fairly smoothly in most
+**[48:16]** cases. So, this is not a... we will talk a
+lot more about this when I discuss short range
+**[48:24]** order and long range order and liquids also.
+A very rough answer would be if you take,
+**[48:29]** for example, water at low temperatures, but
+before it freezes, you discover the system
+**[48:34]** is trying to become crystalline. So neighboring
+molecules are arranging themselves in a regular
+**[48:39]** array, but then its perturbed by thermal fluctuations
+and it dissipates.
+**[48:45]** But as you lower the temperature, the thing
+becomes more sluggish and eventually clicks
+**[48:49]** in to place, as a crystal, but you do need
+a collection for this. And the study of emergent
+**[48:57]** property is, of course, is very, very vibrant,
+its phase transition is just one example of
+**[49:03]** it and many, many other such properties, which
+are very interesting; it is also called collective
+**[49:08]** behavior, it is got many, many other terms
+coherent structures and so on and so forth.
+**[49:14]** Another example, for instance, is if you took
+individual photons, nothing much happens,
+**[49:18]** but if you put them all together in the right
+conditions, they could get coherent and produce
+**[49:22]** a laser beam; that is not a property of a
+single photon. So, many delicate things happen
+**[49:31]** simply because you have these collections,
+and the collections could be extremely weakly
+**[49:36]** interacting, but still produce order. A very
+crude example would be, if there is a distraction
+**[49:42]** at the other end of the room and just a few
+people in that corner start looking there,
+**[49:47]** only their neighbors are influenced, they
+start looking there and pretty soon that propagates.
+**[49:51]** So even if you do only what your neighbors
+do, you can have very long range coherence
+**[49:56]** even though the interaction is short range
+- that is an emergent property.

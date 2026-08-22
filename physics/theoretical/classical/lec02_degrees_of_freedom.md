@@ -10,19 +10,11 @@ kernelspec:
   name: python3
 ---
 
-# Classical Physics
-
-Prof. V. Balakrishnan's lecture series on classical physics, followed here as a set of
-worked lecture notes rather than a bare syllabus. Each lecture below reconstructs the
-argument from the [video series](https://www.youtube.com/playlist?list=PL5E4E56893588CBA8),
-with the phase-space pictures made explicit and interactive wherever the lecture itself
-asks you to "draw" or "complete" one.
-
-## Lecture 1 — Degrees of Freedom, Newton's Equations, and Phase Space
+# Lecture 2 — Degrees of Freedom, Newton's Equations, and Phase Space
 
 *Source: [NPTEL Classical Physics, Mod-01 Lec-02](https://www.youtube.com/watch?v=8X1x9RLaaxc&list=PL5E4E56893588CBA8&index=2), Prof. V. Balakrishnan.*
 
-### Counting degrees of freedom
+## Counting degrees of freedom
 
 A single particle moving in three-dimensional space needs three independent
 coordinates to fix its position, so it has 3 degrees of freedom. $N$ unconstrained
@@ -64,7 +56,7 @@ matter how many particles it is built from** — 3 translational and 3 orientati
 This is also why a rigid diatomic molecule has 2 rotational degrees of freedom (there
 is no moment of inertia about the bond axis) rather than 3.
 
-### Newton's equations need velocities too
+## Newton's equations need velocities too
 
 Drop a piece of chalk from rest and it falls straight down; give it a little sideways
 push and it traces a parabolic (really, elliptical) arc; push harder and it goes into
@@ -85,7 +77,7 @@ Because $q$ and $\dot q$ are independent initial data, the natural arena for dyn
 is not configuration space $\{q\}$ but **phase space** $\{q, \dot q\}$: the space of
 positions *and* velocities together.
 
-### Phase trajectories cannot cross themselves
+## Phase trajectories cannot cross themselves
 
 This single geometric fact carries a lot of weight. If a phase trajectory of an
 autonomous system crossed itself (or crossed another trajectory), the crossing point
@@ -96,7 +88,7 @@ continuations — which contradicts the determinism of Newton's equations. Hence
 > distinct phase trajectories can intersect each other. The one loophole is a
 > trajectory that closes on itself — which is exactly **periodic motion**.
 
-### Worked example: the harmonic oscillator
+## Worked example: the harmonic oscillator
 
 For a conservative force $F(q) = -dV/dq$, energy conservation collapses the two
 first-order equations $\dot q = v,\ \dot v = -V'(q)/m$ down to a single algebraic curve
@@ -267,7 +259,7 @@ oscillator being **isochronous** (period independent of amplitude, i.e. of energ
 Every other trajectory in the lamination is a scaled copy of this one; none of them
 intersect, exactly as the non-crossing theorem requires.
 
-### Worked example: the inverted oscillator
+## Worked example: the inverted oscillator
 
 Now flip the sign of the potential, $V(q) = -\tfrac12 m\omega^2 q^2$ — a hilltop at the
 origin rather than a well. This is precisely the "complete the phase portrait" exercise
@@ -318,14 +310,3 @@ branches in the background, which turn around before ever reaching $q=0$, and ag
 the dashed $E=0$ separatrices they asymptote to. Unlike the harmonic oscillator, there
 is no periodic motion anywhere in this portrait except the unstable equilibrium point
 at the origin itself.
-
-## Upcoming Topics
-
-- Lagrangian mechanics
-- Hamiltonian mechanics
-- Classical field theory
-- Symmetries and conservation laws
-
-## Resources
-
-- [YouTube Playlist](https://www.youtube.com/playlist?list=PL5E4E56893588CBA8)

@@ -2,7 +2,10 @@
 format: jb-book
 root: index
 chapters:
-  - file: classical
+  - file: classical/index
+    sections:
+      - file: classical/lec01_introduction
+      - file: classical/lec02_degrees_of_freedom
   - file: quantum
   - file: mathematical
   - file: stochastic
