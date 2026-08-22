@@ -66,9 +66,16 @@ and, as the rest of this course will keep demonstrating, they don't.
 
 import numpy as np
 import plotly.graph_objects as go
-import plotly.io as pio
+from IPython.display import HTML
 
-pio.renderers.default = "notebook_connected"
+
+def show_fig(fig):
+    """Embed a Plotly figure as self-contained HTML+JS (interactive with no
+    running kernel needed). include_mathjax=False is essential: Plotly's
+    default HTML bundles a legacy MathJax v2 loader that collides with
+    Sphinx's MathJax v3 and silently breaks all math typesetting on the page.
+    """
+    return HTML(fig.to_html(full_html=False, include_mathjax=False))
 
 # (name, value, is the "unaided human range" band?)
 categories = {
@@ -148,7 +155,7 @@ fig.update_layout(
                        xanchor="left", buttons=buttons, active=0)],
     margin=dict(t=90),
 )
-fig.show()
+show_fig(fig)
 ```
 
 Switch between Mass / Length / Time: in every single case, the thin green band where

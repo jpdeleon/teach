@@ -117,11 +117,16 @@ traces one representative trajectory in real time.
 
 import numpy as np
 import plotly.graph_objects as go
-import plotly.io as pio
+from IPython.display import HTML
 
-# Ensure the figure embeds as self-contained HTML+JS so it stays interactive
-# on a statically-hosted page (no running Python kernel needed to view it).
-pio.renderers.default = "notebook_connected"
+
+def show_fig(fig):
+    """Embed a Plotly figure as self-contained HTML+JS (interactive with no
+    running kernel needed). include_mathjax=False is essential: Plotly's
+    default HTML bundles a legacy MathJax v2 loader that collides with
+    Sphinx's MathJax v3 and silently breaks all math typesetting on the page.
+    """
+    return HTML(fig.to_html(full_html=False, include_mathjax=False))
 
 
 class PhaseSpaceExplorer:
@@ -250,7 +255,7 @@ fig_sho = animated_phase_portrait(
     t_values=t_period,
     title="Phase portrait — simple harmonic oscillator (laminated by ellipses)",
 )
-fig_sho.show()
+show_fig(fig_sho)
 ```
 
 Drag the slider (or hit Play): the point moves clockwise at constant angular rate
@@ -300,7 +305,7 @@ fig_inv.add_trace(go.Scatter(x=q_sep, y=inverted.omega * q_sep, mode="lines",
 fig_inv.add_trace(go.Scatter(x=q_sep, y=-inverted.omega * q_sep, mode="lines",
                               line=dict(color="black", width=1.5, dash="dash"),
                               hoverinfo="skip", showlegend=False))
-fig_inv.show()
+show_fig(fig_inv)
 ```
 
 The highlighted, animated branch has $E=1>0$: the marker sails straight across the
