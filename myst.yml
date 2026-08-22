@@ -11,7 +11,7 @@ project:
     - data analysis
     - teaching
     - courses
-  github: https://github.com/jpdeleon/jbook
+  github: https://github.com/jpdeleon/teach
   license: CC-BY-4.0
 
 site:
@@ -22,7 +22,7 @@ site:
     html_title: Course Materials
     nav_links:
       - text: "GitHub"
-        url: https://github.com/jpdeleon/jbook
+        url: https://github.com/jpdeleon/teach
         icon: github
     extra_footer: |
       <p>Course materials by Jerome de Leon</p>
