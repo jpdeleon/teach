@@ -44,16 +44,15 @@ Instruments break the walls of the middle dimensions on both sides at once —
 microscopes inward, telescopes outward — and the numbers involved make the point
 vividly:
 
-- **Mass:** an electron, $\sim 10^{-30}\,\text{kg}$, up to the Sun, $\sim 10^{30}\,\text{kg}$,
-  up to a rough Fermi estimate for all the ordinary matter in the universe
-  ($\sim 10^{11}$ galaxies $\times\, 10^{11}$ stars/galaxy $\times\,10^{30}\,\text{kg}$),
-  $\sim 10^{52}\,\text{kg}$.
-- **Length:** the size of an atomic nucleus, $\sim 10^{-15}\,\text{m}$, down further to
-  the Planck length, $\sim 10^{-35}\,\text{m}$, up to the radius of the observable
-  universe, $\sim 10^{26}\,\text{m}$ (from its $\sim$13.8-billion-year age times the
-  speed of light).
-- **Time:** the Planck time, $\sim 10^{-42}\,\text{s}$, up to the age of the universe
-  itself, $\sim 10^{17}\,\text{s}$.
+| Quantity | Smallest known | Largest known | Span |
+|---|---|---|---|
+| Mass | electron, $\sim 10^{-30}\,\text{kg}$ | observable universe (Fermi estimate: $10^{11}$ galaxies $\times\,10^{11}$ stars/galaxy $\times\,10^{30}\,\text{kg}$), $\sim 10^{52}\,\text{kg}$ | 82 decades |
+| Length | Planck length, $\sim 10^{-35}\,\text{m}$ | radius of the observable universe ($\sim$13.8-billion-year age $\times\,c$), $\sim 10^{26}\,\text{m}$ | 61 decades |
+| Time | Planck time, $\sim 10^{-42}\,\text{s}$ | age of the universe, $\sim 10^{17}\,\text{s}$ | 59 decades |
+
+(An atomic nucleus, $\sim 10^{-15}\,\text{m}$, sits well inside this length range — it's
+where ordinary nuclear physics operates, still 20 decades short of the Planck length
+where the real floor is.)
 
 Our senses cover 7–8 decades. Nature's actual range, as far as we can currently probe
 it, is **60 to 80+ decades** — and every one of those decades is a *multiplicative*
