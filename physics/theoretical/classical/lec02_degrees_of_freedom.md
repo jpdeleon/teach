@@ -319,4 +319,4 @@ at the origin itself.
 
 ---
 
-**◀ Previous:** [Lecture 1 — Orders of Magnitude and the Regimes of Physics](lec01_introduction.md) &nbsp;&nbsp;|&nbsp;&nbsp; **Next ▶:** [Quantum Physics](../quantum.md)
+**◀ Previous:** [Lecture 1 — Orders of Magnitude and the Regimes of Physics](lec01_introduction.md) &nbsp;&nbsp;|&nbsp;&nbsp; **Next ▶:** [Lecture 5–6 — Autonomous Dynamical Systems](lec05_autonomous_dynamics.md)
