@@ -88,7 +88,7 @@ eigenvalues mean oscillation without either.
 ## Classifying 2D linear flows: it's all trace and determinant
 
 Restrict to two dimensions, $\dot x = f(x,y)$, $\dot y = g(x,y)$, with a critical
-point at the origin, $L = \begin{psmallmatrix} a & b \\ c & d \end{psmallmatrix}$. The
+point at the origin, $L = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$. The
 characteristic (secular) equation is
 
 $$
@@ -217,7 +217,7 @@ def fig_td_tour():
         title=f"{c0['name']}   (T={c0['T']:.1f}, D={c0['D']:.1f})",
         annotations=list(fig.layout.annotations) + region_labels,
         width=920, height=460,
-        updatemenus=[dict(type="buttons", showactive=False, y=1.28, x=0.0, xanchor="left",
+        updatemenus=[dict(type="buttons", showactive=False, y=1.28, x=1.0, xanchor="right",
             buttons=[dict(label="▶ Tour the plane", method="animate",
                           args=[None, dict(frame=dict(duration=1200, redraw=True),
                                             fromcurrent=True, transition=dict(duration=300))]),
@@ -475,7 +475,3 @@ direct calculation reproduces. (It's not a coincidence: a later change of variab
 turns Lotka–Volterra into an honest Hamiltonian system, for which $\nabla\!\cdot\!\vec
 f \equiv 0$ exactly, without needing to average over anything — a preview of where
 this course is headed.)
-
----
-
-**◀ Previous:** [Lecture 2 — Degrees of Freedom, Newton's Equations, and Phase Space](lec02_degrees_of_freedom.md) &nbsp;&nbsp;|&nbsp;&nbsp; **Next ▶:** [Lecture 28–30 — Phase Transitions, Critical Phenomena, and Landau Theory](lec28_phase_transitions.md)

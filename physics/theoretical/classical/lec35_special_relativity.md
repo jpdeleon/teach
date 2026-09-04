@@ -153,9 +153,10 @@ one class to another — it can, however, freely slide a *spacelike* pair of eve
 back and forth in time-order (this is the relativity of simultaneity), or a
 *timelike* pair back and forth in space (never reordering which came first).
 
-The same invariance, applied to momentum instead of position, gives $p\cdot p = E^2/c^2
-- \vec p^{\,2} = m^2c^2$ — every free particle of mass $m$ is confined to a fixed
-hyperbola (the **mass shell**) in energy-momentum space, however it's boosted.
+The same invariance, applied to momentum instead of position, gives
+$p\cdot p = E^2/c^2 - \vec p^{\,2} = m^2c^2$ — every free particle of mass $m$ is
+confined to a fixed hyperbola (the **mass shell**) in energy-momentum space, however
+it's boosted.
 
 ```{code-cell} ipython3
 :tags: [hide-input]
@@ -244,7 +245,7 @@ def fig_minkowski_massshell():
     fig.update_layout(
         width=940, height=460,
         title=f"Boost rapidity u = {u_values[0]:.2f}   (v/c = {np.tanh(u_values[0]):.3f})",
-        updatemenus=[dict(type="buttons", showactive=False, y=1.25, x=0.0, xanchor="left",
+        updatemenus=[dict(type="buttons", showactive=False, y=1.25, x=1.0, xanchor="right",
             buttons=[dict(label="▶ Boost", method="animate",
                           args=[None, dict(frame=dict(duration=100, redraw=True),
                                             fromcurrent=True, transition=dict(duration=0))]),
@@ -419,7 +420,7 @@ def fig_EB_boost():
     fig.update_layout(
         title=f"v/c = {beta_values[0]:.2f}   —   E′² − c²B′² = {Ep0**2 - Bp0**2:.4f}   (invariant: stays = E₀² = 1)",
         width=680, height=520,
-        updatemenus=[dict(type="buttons", showactive=False, y=1.15, x=0.0, xanchor="left",
+        updatemenus=[dict(type="buttons", showactive=False, y=1.15, x=1.0, xanchor="right",
             buttons=[dict(label="▶ Boost", method="animate",
                           args=[None, dict(frame=dict(duration=100, redraw=True),
                                             fromcurrent=True, transition=dict(duration=0))]),
@@ -508,7 +509,3 @@ the honest insistence that no frame is special — is enough to conjure up two o
 most basic properties any particle can have. What comes next is to see how all of
 this reads once matter is described not by trajectories but by wavefunctions: quantum
 mechanics.
-
----
-
-**◀ Previous:** [Lecture 28–30 — Phase Transitions, Critical Phenomena, and Landau Theory](lec28_phase_transitions.md) &nbsp;&nbsp;|&nbsp;&nbsp; **Next ▶:** [Quantum Physics](../quantum.md)

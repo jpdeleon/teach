@@ -167,7 +167,7 @@ def fig_paramagnet_family():
         title="Paramagnet equation of state:  M/Nμ = tanh(μH / k_BT)",
         xaxis_title="μH / k_B   (kelvin)", yaxis_title="M / Nμ",
         yaxis=dict(range=[0, 1.05]), width=680, height=480,
-        updatemenus=[dict(type="buttons", showactive=False, y=1.15, x=0.0, xanchor="left",
+        updatemenus=[dict(type="buttons", showactive=False, y=1.15, x=1.0, xanchor="right",
             buttons=[dict(label="▶ Cool down", method="animate",
                           args=[None, dict(frame=dict(duration=80, redraw=True),
                                             fromcurrent=True, transition=dict(duration=0))]),
@@ -313,7 +313,7 @@ def fig_weiss_selfconsistency():
         xaxis=dict(range=[-1.3, 1.3]),
         yaxis=dict(range=[-1.3, 1.3], scaleanchor="x", scaleratio=1),
         width=680, height=560,
-        updatemenus=[dict(type="buttons", showactive=False, y=1.1, x=0.0, xanchor="left",
+        updatemenus=[dict(type="buttons", showactive=False, y=1.1, x=1.0, xanchor="right",
             buttons=[dict(label="▶ Cool through Tc", method="animate",
                           args=[None, dict(frame=dict(duration=90, redraw=True),
                                             fromcurrent=True, transition=dict(duration=0))]),
@@ -420,11 +420,12 @@ $$
 with $\Delta$ denoting (final phase) $-$ (initial phase), unambiguous once you fix
 which phase is which.
 
-- **Liquid–gas:** the gas is far more disordered, so $\Delta S = S_{\text{gas}} -
-  S_{\text{liquid}} > 0$ always; likewise $\Delta V = V_{\text{gas}} - V_{\text{liquid}}
-  > 0$ always. Both numerator and denominator are positive — but $\Delta V$ is *huge*
-  (a liquid's specific volume barely responds to temperature) — so the slope is
-  positive but small: the familiar shallow-sloped boiling curve.
+- **Liquid–gas:** the gas is far more disordered, so
+  $\Delta S = S_{\text{gas}} - S_{\text{liquid}} > 0$ always; likewise
+  $\Delta V = V_{\text{gas}} - V_{\text{liquid}} > 0$ always. Both numerator and
+  denominator are positive — but $\Delta V$ is *huge* (a liquid's specific volume
+  barely responds to temperature) — so the slope is positive but small: the familiar
+  shallow-sloped boiling curve.
 - **Solid–liquid:** the liquid is always more disordered than the crystal, so
   $\Delta S = S_{\text{liquid}} - S_{\text{solid}} > 0$ always — but $\Delta V =
   V_{\text{liquid}} - V_{\text{solid}}$ has **no fixed sign**. Most substances
@@ -544,7 +545,7 @@ def fig_landau_free_energy():
         title="Landau free energy F(m) = a(T)·m² + b·m⁴: pitchfork bifurcation at a(T) = 0",
         xaxis_title="order parameter m", yaxis_title="F − F₀  (arbitrary units)",
         width=680, height=480,
-        updatemenus=[dict(type="buttons", showactive=False, y=1.15, x=0.0, xanchor="left",
+        updatemenus=[dict(type="buttons", showactive=False, y=1.15, x=1.0, xanchor="right",
             buttons=[dict(label="▶ Cool through Tc", method="animate",
                           args=[None, dict(frame=dict(duration=90, redraw=True),
                                             fromcurrent=True, transition=dict(duration=0))]),
@@ -644,7 +645,3 @@ qualitative feature derived here: an order parameter, a symmetry that must break
 a critical point where microscopic detail stops mattering. (Quantum phase
 transitions — driven by quantum rather than thermal fluctuations, occurring at
 $T=0$ — extend this picture further still, but that is a story for another course.)
-
----
-
-**◀ Previous:** [Lecture 5–6 — Autonomous Dynamical Systems](lec05_autonomous_dynamics.md) &nbsp;&nbsp;|&nbsp;&nbsp; **Next ▶:** [Lecture 35–38 — Special Relativity](lec35_special_relativity.md)

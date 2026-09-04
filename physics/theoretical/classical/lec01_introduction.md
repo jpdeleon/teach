@@ -159,8 +159,8 @@ fig.update_layout(
     xaxis=dict(title="log10( Mass (kg) )", range=[min(all_x) - 3, max(all_x) + 3]),
     yaxis=dict(visible=False, range=[-1.6, 1.6]),
     autosize=True, height=380,
-    updatemenus=[dict(type="buttons", direction="right", x=0.0, y=1.25,
-                       xanchor="left", buttons=buttons, active=0)],
+    updatemenus=[dict(type="buttons", direction="right", x=1.0, y=1.25,
+                       xanchor="right", buttons=buttons, active=0)],
     margin=dict(t=90, l=60, r=60),
 )
 show_fig(fig)
@@ -225,7 +225,3 @@ components together under the right conditions, and qualitatively new, collectiv
 behavior appears that no amount of studying one component in isolation would have
 predicted. Understanding when and how these properties emerge — not just what the
 microscopic rules are — is one of the recurring threads of this course.
-
----
-
-**◀ Previous:** [Classical Physics](index.md) &nbsp;&nbsp;|&nbsp;&nbsp; **Next ▶:** [Lecture 2 — Degrees of Freedom, Newton's Equations, and Phase Space](lec02_degrees_of_freedom.md)
