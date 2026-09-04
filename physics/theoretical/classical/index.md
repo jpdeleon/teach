@@ -16,6 +16,10 @@ asks you to "draw" or "complete" one.
 - [Lecture 8–9 — Classical Electromagnetism: Potentials, Gauge Invariance, and the Charged-Particle Lagrangian](lec08_electromagnetism.md)
 - [Lecture 10–12 — Hamiltonian Dynamics: Legendre Transforms, Poisson Brackets, and Integrability](lec10_hamiltonian_dynamics.md)
 - [Lecture 13–14 — Dynamical Symmetry: Noether's Theorem, the Symplectic Group, and the Kepler Problem](lec13_dynamical_symmetry.md)
+- [Lecture 20–21 — Foundations of Statistical Mechanics: Equal A Priori Probabilities and the Law of Large Numbers](lec20_statistical_mechanics.md)
+  *(skips ahead in the syllabus — see below)*
+- [Lecture 22–23 — The Microcanonical Ensemble and the Structure of Thermodynamics](lec22_microcanonical_ensemble.md)
+- [Lecture 24–25 — The Canonical Ensemble and the Classical Ideal Gas](lec24_canonical_ensemble.md)
 - [Lecture 28–30 — Phase Transitions, Critical Phenomena, and Landau Theory](lec28_phase_transitions.md)
   *(skips ahead in the syllabus — see below)*
 - [Lecture 35–38 — Special Relativity: Noether's Theorem, Four-Vectors, and the Lorentz Group](lec35_special_relativity.md)
@@ -29,8 +33,10 @@ transcribed here yet:
 
 - Classical field theory
 - Oscillations and normal modes
-- Foundations of equilibrium statistical mechanics
-- Probability distributions
+- Lecture 15–19 (between dynamical symmetry and statistical mechanics — the syllabus
+  skips ahead at Lecture 20)
+- Further probability distributions (Lec-26–27, beyond the binomial/Poisson/Gaussian
+  covered in [Lecture 20–21](lec20_statistical_mechanics.md))
 - Critical phenomena and the group theory of Noether's theorem (Lec-31–34, between
   Lecture 28–30 and Lecture 35–38)
 

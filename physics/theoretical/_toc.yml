@@ -12,6 +12,9 @@ chapters:
       - file: classical/lec08_electromagnetism
       - file: classical/lec10_hamiltonian_dynamics
       - file: classical/lec13_dynamical_symmetry
+      - file: classical/lec20_statistical_mechanics
+      - file: classical/lec22_microcanonical_ensemble
+      - file: classical/lec24_canonical_ensemble
       - file: classical/lec28_phase_transitions
       - file: classical/lec35_special_relativity
   - file: quantum

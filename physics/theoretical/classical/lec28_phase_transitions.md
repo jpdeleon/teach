@@ -16,12 +16,11 @@ kernelspec:
 [Lec-29](https://www.youtube.com/watch?v=MIL7M0GKDOM&list=PL5E4E56893588CBA8&index=35) (Part 3), and
 [Lec-30](https://www.youtube.com/watch?v=Wya57SmeN00&list=PL5E4E56893588CBA8&index=38) (Part 4), Prof. V. Balakrishnan.*
 
-*This page jumps ahead in Balakrishnan's syllabus — from the linear dynamics of
-[Lecture 5–6](lec05_autonomous_dynamics.md) to a statistical-mechanics topic covered much
-later in the course. The intervening material (Lagrangian and Hamiltonian mechanics,
-oscillations, and the foundations of equilibrium statistical mechanics) isn't
-transcribed here yet; see [Upcoming Topics](index.md) for the roadmap. What follows is
-self-contained regardless.*
+*This page jumps ahead slightly in Balakrishnan's syllabus, from the canonical ensemble of
+[Lecture 24–25](lec24_canonical_ensemble.md) to a topic covered a little later in the
+course. The intervening material (oscillations and normal modes, and further probability
+distributions in Lec-26–27) isn't transcribed here yet; see [Upcoming Topics](index.md)
+for the roadmap. What follows is self-contained regardless.*
 
 ## Recap: one critical point, and one that never appears
 
