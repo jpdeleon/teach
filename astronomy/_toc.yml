@@ -1,0 +1,14 @@
+# Table of contents
+format: jb-book
+root: index
+chapters:
+  - file: foundations
+  - file: sun
+  - file: stars
+  - file: solar_system
+  - file: planets
+  - file: exoplanets
+  - file: compact_objects
+  - file: galaxies
+  - file: cosmology
+  - file: resources

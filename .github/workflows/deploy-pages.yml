@@ -43,6 +43,9 @@ jobs:
       - name: Build General Physics sub-book
         run: uv run jupyter-book build physics/general
 
+      - name: Build Astronomy sub-book
+        run: uv run jupyter-book build astronomy
+
       - name: Assemble site
         run: |
           set -e
@@ -50,10 +53,12 @@ jobs:
           mkdir -p _site/physics/theoretical
           mkdir -p _site/physics/applied
           mkdir -p _site/physics/general
+          mkdir -p _site/astronomy
           cp -r _build/html/. _site/
           cp -r physics/theoretical/_build/html/. _site/physics/theoretical/
           cp -r physics/applied/_build/html/. _site/physics/applied/
           cp -r physics/general/_build/html/. _site/physics/general/
+          cp -r astronomy/_build/html/. _site/astronomy/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

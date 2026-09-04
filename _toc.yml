@@ -13,6 +13,7 @@ parts:
   - caption: Astronomy
     chapters:
       - file: astronomy
+      - file: astronomy/index
   - caption: Data Analysis
     chapters:
       - file: observation_data_analysis
