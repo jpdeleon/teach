@@ -14,6 +14,7 @@ asks you to "draw" or "complete" one.
 - [Lecture 5–6 — Autonomous Dynamical Systems](lec05_autonomous_dynamics.md)
 - [Lecture 7 — The Lagrangian Formalism: Action, Euler–Lagrange Equations, and the Pendulum](lec07_lagrangian.md)
 - [Lecture 8–9 — Classical Electromagnetism: Potentials, Gauge Invariance, and the Charged-Particle Lagrangian](lec08_electromagnetism.md)
+- [Lecture 10–12 — Hamiltonian Dynamics: Legendre Transforms, Poisson Brackets, and Integrability](lec10_hamiltonian_dynamics.md)
 - [Lecture 28–30 — Phase Transitions, Critical Phenomena, and Landau Theory](lec28_phase_transitions.md)
   *(skips ahead in the syllabus — see below)*
 - [Lecture 35–38 — Special Relativity: Noether's Theorem, Four-Vectors, and the Lorentz Group](lec35_special_relativity.md)
@@ -25,7 +26,6 @@ Balakrishnan's course runs from mechanics through statistical mechanics before
 reaching phase transitions and finally special relativity; the following isn't
 transcribed here yet:
 
-- Hamiltonian mechanics
 - Classical field theory
 - Oscillations and normal modes
 - Foundations of equilibrium statistical mechanics
