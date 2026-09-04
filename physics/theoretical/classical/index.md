@@ -12,6 +12,7 @@ asks you to "draw" or "complete" one.
 - [Lecture 2 — Degrees of Freedom, Newton's Equations, and Phase Space](lec02_degrees_of_freedom.md)
 - [Lecture 3–4 — Multiple Critical Points, Scaling Arguments, and the Road to Linear Systems](lec03_dynamics.md)
 - [Lecture 5–6 — Autonomous Dynamical Systems](lec05_autonomous_dynamics.md)
+- [Lecture 7 — The Lagrangian Formalism: Action, Euler–Lagrange Equations, and the Pendulum](lec07_lagrangian.md)
 - [Lecture 28–30 — Phase Transitions, Critical Phenomena, and Landau Theory](lec28_phase_transitions.md)
   *(skips ahead in the syllabus — see below)*
 - [Lecture 35–38 — Special Relativity: Noether's Theorem, Four-Vectors, and the Lorentz Group](lec35_special_relativity.md)
@@ -23,7 +24,6 @@ Balakrishnan's course runs from mechanics through statistical mechanics before
 reaching phase transitions and finally special relativity; the following isn't
 transcribed here yet:
 
-- Lagrangian mechanics
 - Hamiltonian mechanics
 - Classical field theory
 - Oscillations and normal modes
