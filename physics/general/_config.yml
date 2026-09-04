@@ -24,6 +24,7 @@ html:
 
 sphinx:
   config:
+    html_favicon: ../../favicon.svg
     exclude_patterns:
       - ".venv/**"
       - "_build/**"
