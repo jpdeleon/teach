@@ -11,6 +11,7 @@ chapters:
       - file: classical/lec07_lagrangian
       - file: classical/lec08_electromagnetism
       - file: classical/lec10_hamiltonian_dynamics
+      - file: classical/lec13_dynamical_symmetry
       - file: classical/lec28_phase_transitions
       - file: classical/lec35_special_relativity
   - file: quantum
