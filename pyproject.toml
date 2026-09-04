@@ -34,6 +34,13 @@ dependencies = [
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools]
+# This project is course content (docs/notebooks), not an importable Python
+# package. Disable setuptools' automatic package discovery so adding new
+# top-level content directories (physics/, astronomy/, ...) never breaks
+# the build with an ambiguous "multiple top-level packages" error.
+packages = []
+
 [tool.uv.sources]
 # Use local development versions if needed
 # jupyter-book = {path = "../jupyter-book", editable = true}
