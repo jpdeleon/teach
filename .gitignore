@@ -15,6 +15,10 @@ _build/
 # Jupyter Book cache
 .jupyter_cache/
 
+# Raw lecture transcripts (source material, not part of the built book;
+# already-tracked transcripts stay tracked, new drafts stay untracked)
+physics/theoretical/transcript/
+
 # IDE
 .vscode/
 .idea/

@@ -18,7 +18,7 @@ Based on Prof. V. Balakrishnan's lecture series:
 - Nonlinear Dynamics
 - Nonequilibrium Statistical Mechanics
 
-[Build & View →](physics/theoretical/index.html)
+<a href="physics/theoretical/index.html">Build & View →</a>
 
 ### 🔬 Applied Physics
 **Path:** `physics/applied/`
@@ -32,7 +32,7 @@ Hands-on physics from popular YouTube channels:
 - Smarter Everyday
 - Branch Education
 
-[Build & View →](physics/applied/index.html)
+<a href="physics/applied/index.html">Build & View →</a>
 
 ### 📚 General Physics
 **Path:** `physics/general/`
@@ -43,7 +43,7 @@ General resources, animations, simulations, and textbooks:
 - References & Resources
 - Textbooks
 
-[Build & View →](physics/general/index.html)
+<a href="physics/general/index.html">Build & View →</a>
 
 ## Building Individual Books
 
