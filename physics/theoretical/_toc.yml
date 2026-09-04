@@ -6,6 +6,7 @@ chapters:
     sections:
       - file: classical/lec01_introduction
       - file: classical/lec02_degrees_of_freedom
+      - file: classical/lec03_dynamics
       - file: classical/lec05_autonomous_dynamics
       - file: classical/lec28_phase_transitions
       - file: classical/lec35_special_relativity

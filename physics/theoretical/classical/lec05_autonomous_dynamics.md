@@ -15,10 +15,6 @@ kernelspec:
 *Source: [NPTEL Classical Physics, Mod-01 Lec-05](https://www.youtube.com/watch?v=Vmj54LvrLOA&list=PL5E4E56893588CBA8&index=6) (Autonomous dynamical systems, Part 1) and
 [Lec-06](https://www.youtube.com/watch?v=oreXK3P6k30&list=PL5E4E56893588CBA8&index=7) (Part 2), Prof. V. Balakrishnan.*
 
-*Two short lectures (Lec-03 "Dynamics" and Lec-04 "Linear dynamics") sit between
-[Lecture 2](lec02_degrees_of_freedom.md) and this page and aren't transcribed here
-yet — see [Upcoming Topics](index.md). What follows doesn't depend on them.*
-
 ## Local solvability is (almost) automatic
 
 Write a general $N$-dimensional autonomous system as $\dot{\vec x} = \vec f(\vec x)$,
