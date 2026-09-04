@@ -17,12 +17,16 @@ parts:
   - caption: Data Analysis
     chapters:
       - file: observation_data_analysis
+      - file: observation_data_analysis/index
   - caption: Space & Earth Science
     chapters:
       - file: space_earth_science
+      - file: space_earth_science/index
   - caption: Statistics & Algorithms
     chapters:
       - file: statistics_algorithms
+      - file: statistics_algorithms/index
   - caption: Philosophy
     chapters:
       - file: philosophy_teaching
+      - file: philosophy_teaching/index

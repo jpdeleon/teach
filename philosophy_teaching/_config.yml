@@ -1,0 +1,31 @@
+# Book settings
+title: Philosophy of Teaching Science
+author: Jerome de Leon
+logo: ../logo.png
+
+execute:
+  execute_notebooks: force
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+bibtex_bibfiles:
+  - ../references.bib
+
+repository:
+  url: https://github.com/jpdeleon/teach
+  path_to_book: philosophy_teaching
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+sphinx:
+  config:
+    html_favicon: ../favicon.svg
+    exclude_patterns:
+      - ".venv/**"
+      - "_build/**"
+      - "**.ipynb_checkpoints/**"

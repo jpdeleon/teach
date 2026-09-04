@@ -1,0 +1,12 @@
+# Table of contents
+format: jb-book
+root: index
+chapters:
+  - file: foundations
+  - file: model_fitting
+  - file: monte_carlo
+  - file: visualization
+  - file: advanced_methods
+  - file: machine_learning
+  - file: miscellaneous
+  - file: resources

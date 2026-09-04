@@ -1,0 +1,10 @@
+# Table of contents
+format: jb-book
+root: index
+chapters:
+  - file: planning_and_instrumentation
+  - file: data_reduction_and_astrometry
+  - file: time_series_and_transits
+  - file: spectroscopy_and_rv
+  - file: tools_and_practices
+  - file: resources

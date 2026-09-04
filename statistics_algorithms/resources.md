@@ -1,0 +1,15 @@
+# Resources
+
+* [Web course: Neuromatch](https://neuromatch.io/open-education-resources/)
+* [Web course: Computational Astrophysics](https://zingale.github.io/computational_astrophysics/intro.html)
+* [Web course: Practical Statistics](https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/video_galleries/lecture-videos/)
+* [Lecture series: Statistics & Machine Learning in Astronomy](https://www.youtube.com/playlist?list=PLo4wAAMJnA1wDQ2ZmTJCaBYdrXqBWUwT5)
+* [Lecture series: Fundamentals of Statistics](https://www.youtube.com/playlist?list=PLUl4u3cNGP61ATaGTFcSp7bhogloD2wHP)
+* [Lecture series: Introduction to Probability](https://www.youtube.com/playlist?list=PLUl4u3cNGP60hI9ATjSFgLZpbNJ7myAg6)
+* [Lecture series: Stochastic Processes](https://www.youtube.com/playlist?list=PLbMVogVj5nJQo8D9D-D6lMqh4FJbPeE_f)
+* [Lecture notes: Astrostatistics](https://github.com/dgerosa/astrostatistics_bicocca_2024)
+* [Review: MCMC Methods for Bayesian Data Analysis in Astronomy](https://www.annualreviews.org/doi/full/10.1146/annurev-astro-082214-122339)
+* [Lecture series: Metaprogramming](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
+* [Lecture series: Mathematical Methods](https://www.youtube.com/playlist?list=PL4KQU9aLBWgIKYhsebzc-OorDCj_islzp)
+* [Channel: IT & Networking Fundamentals](https://www.youtube.com/@PowerCertAnimatedVideos/playlists)
+* [Lecture series: Missing Semester in CS](https://www.youtube.com/@MissingSemester/playlists)

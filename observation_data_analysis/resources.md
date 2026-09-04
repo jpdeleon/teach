@@ -1,0 +1,17 @@
+# Resources
+
+* [Datalab notebooks](https://datalab.noirlab.edu/docs/manual/Appendices/Notebooks/Notebooks.html)
+* [Open datasets](https://github.com/jonathansick/awesome-astronomy?tab=readme-ov-file#datasets)
+* [Lab demo: Optics](https://www.youtube.com/playlist?list=PL4E7FAAD67B171EBC)
+* [Lecture series: Astronomical Techniques by Chris Mihos](http://burro.case.edu/Academics/Astr306/)
+* [Database: NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/)
+* [Book: Experimental Astrophysics](https://iopscience.iop.org/book/mono/978-0-7503-3119-7.pdf)
+* [Review: Reference Frames in Astronomy, 1999](https://www.annualreviews.org/doi/full/10.1146/annurev.astro.37.1.97)
+* [Astropy's CCD Guide](https://www.astropy.org/ccd-reduction-and-photometry-guide/v/dev/notebooks/00-00-Preface.html)
+* [Jason Kendall's Course](https://youtube.com/playlist?list=PLyu4Fovbph6cKjOO7vj97V7J6_2PA2FY-&si=DHze01nTDk-rMfHU)
+* [Growth Astronomy School](https://www.youtube.com/playlist?list=PLuTcC-SLS5wofH1ET2ThCR4gsbHpJ-D_c)
+* [Review: Standard Photometric Systems](https://www.annualreviews.org/doi/full/10.1146/annurev.astro.41.082801.100251)
+* [Review: Digital Image Reconstruction](https://www.annualreviews.org/doi/full/10.1146/annurev.astro.43.112904.104850)
+* [Book: Numerical Python in A&A, Springer](https://www.google.co.jp/books/edition/Numerical_Python_in_Astronomy_and_Astrop/D4k4EAAAQBAJ?hl)
+* [Lecture series: Introduction to Computer Science & Programming with Python](https://www.youtube.com/playlist?list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA)
+* [Astronomical Software Carpentry](https://datacarpentry.github.io/astronomy-python/instructor/key-points.html)

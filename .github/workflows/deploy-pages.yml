@@ -46,6 +46,18 @@ jobs:
       - name: Build Astronomy sub-book
         run: uv run jupyter-book build astronomy
 
+      - name: Build Data Analysis sub-book
+        run: uv run jupyter-book build observation_data_analysis
+
+      - name: Build Space & Earth Science sub-book
+        run: uv run jupyter-book build space_earth_science
+
+      - name: Build Statistics & Algorithms sub-book
+        run: uv run jupyter-book build statistics_algorithms
+
+      - name: Build Philosophy sub-book
+        run: uv run jupyter-book build philosophy_teaching
+
       - name: Assemble site
         run: |
           set -e
@@ -54,11 +66,19 @@ jobs:
           mkdir -p _site/physics/applied
           mkdir -p _site/physics/general
           mkdir -p _site/astronomy
+          mkdir -p _site/observation_data_analysis
+          mkdir -p _site/space_earth_science
+          mkdir -p _site/statistics_algorithms
+          mkdir -p _site/philosophy_teaching
           cp -r _build/html/. _site/
           cp -r physics/theoretical/_build/html/. _site/physics/theoretical/
           cp -r physics/applied/_build/html/. _site/physics/applied/
           cp -r physics/general/_build/html/. _site/physics/general/
           cp -r astronomy/_build/html/. _site/astronomy/
+          cp -r observation_data_analysis/_build/html/. _site/observation_data_analysis/
+          cp -r space_earth_science/_build/html/. _site/space_earth_science/
+          cp -r statistics_algorithms/_build/html/. _site/statistics_algorithms/
+          cp -r philosophy_teaching/_build/html/. _site/philosophy_teaching/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

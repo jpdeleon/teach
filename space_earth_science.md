@@ -1,17 +1,24 @@
 # Space & Earth Science
 
-## Course Outline
+Space & Earth science is organized as a self-contained Jupyter Book, covering remote
+sensing and Earth observation from space.
 
-* **Remote Sensing**
-  * [Basics](https://earth.jaxa.jp/en/eo-knowledge/index.html)
+```{tableofcontents}
+```
 
-## References
+## Sub-book
 
-* Space Science Modules @ RegulusSpaceTech
-* [Code: earthnets](https://earthnets.github.io/)
-* [Google Earth Engine](https://earthengine.google.com/timelapse/)
-* [Blog: NASA Earth data](https://www.earthdata.nasa.gov/news/blog)
-* [Blog: Planet pulse](https://www.planet.com/pulse/)
-* [Tutorials: NASA Earth data](https://www.earthdata.nasa.gov/learn/tutorials)
-* [Code: GIBS](https://nasa-gibs.github.io/gibs-api-docs/)
-* [Tools: JAXA Earth API](https://earth.jaxa.jp/en/eo-knowledge/analysis-tool/index.html)
+### 🛰️ Space & Earth Science
+**Path:** `space_earth_science/`
+
+- Remote Sensing
+- Resources
+
+<a href="space_earth_science/index.html">Build & View →</a>
+
+## Building the Book
+
+```bash
+cd space_earth_science
+jupyter-book build .
+```
