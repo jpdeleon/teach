@@ -155,6 +155,8 @@ def root_m0(T_over_Tc, n_scan=2000):
 ```
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def fig_paramagnet_family():
     h = np.linspace(0, 4, 300)  # mu*H / k_B, in kelvin
     T_values = np.linspace(4.0, 0.3, 50)
@@ -215,6 +217,8 @@ behavior depends on the dimensionality of the space the order parameter lives in
 a theme that becomes central once critical exponents enter the picture.
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def fig_dimensionality():
     x = np.linspace(0.001, 6, 400)
     fig = go.Figure()
@@ -284,6 +288,8 @@ stable equilibria ($\pm m_0$) plus an unstable one ($m=0$ itself, now a local
 maximum of the free energy) as $T$ drops through $T_c$.
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def fig_weiss_selfconsistency():
     m = np.linspace(-1.3, 1.3, 300)
     T_values = np.linspace(2.5, 0.12, 60)
@@ -352,6 +358,8 @@ $$
 $$
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def fig_beta_exponent():
     T_values = np.linspace(0.995, 0.05, 250)
     m0_values = np.array([root_m0(T) for T in T_values])
@@ -516,6 +524,8 @@ above — Landau theory doesn't just explain $\beta$, it reproduces the whole me
 universality class from symmetry alone.)
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def fig_landau_free_energy():
     m = np.linspace(-1.4, 1.4, 300)
     t_values = np.linspace(1.0, -1.0, 50)  # proxy for a(T) ~ (T - Tc)/Tc
@@ -574,6 +584,8 @@ $\psi$) costs no energy at all in this model; only radial motion, toward or away
 from the rim, does.
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def fig_mexican_hat():
     r = np.linspace(0, 1.2, 70)
     theta = np.linspace(0, 2 * np.pi, 70)

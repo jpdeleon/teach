@@ -246,6 +246,8 @@ def animated_phase_portrait(explorer, energies, highlight_E, t_values,
 ```
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 sho = PhaseSpaceExplorer(omega=1.0, sign=+1)
 t_period = np.linspace(0, 2 * np.pi, 60)  # one full period, omega = 1
 
@@ -287,6 +289,8 @@ $$
   require negative kinetic energy).
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 inverted = PhaseSpaceExplorer(omega=1.0, sign=-1)
 t_escape = np.linspace(-2.2, 2.2, 60)  # crossing the hilltop, omega = 1
 

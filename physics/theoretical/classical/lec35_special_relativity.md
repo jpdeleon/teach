@@ -183,6 +183,8 @@ def show_fig(fig):
 ```
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def fig_minkowski_massshell():
     u_values = np.linspace(0, 1.5, 30)  # rapidity of the boost
     R = 3.0
@@ -289,6 +291,8 @@ like Newton would have expected velocities to — it's rapidity, not velocity, t
 Galileo's intuition was reaching for.**
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def fig_rapidity():
     u = np.linspace(-3, 3, 400)
     fig = go.Figure()
@@ -346,6 +350,8 @@ components, but the diagonal vanishes and antisymmetry ties the lower triangle t
 upper, leaving exactly 6 independent numbers — precisely $E_x,E_y,E_z,B_x,B_y,B_z$.
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def fig_field_tensor():
     labels = [["0", "−Eₓ/c", "−Eᵧ/c", "−E_z/c"],
               ["Eₓ/c", "0", "−B_z", "Bᵧ"],
@@ -391,6 +397,8 @@ at all. Walk past it (equivalently, boost the field) and a **magnetic field appe
 out of nothing** — magnetism is what electricity looks like from a moving frame.
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def fig_EB_boost():
     E0 = 1.0
     beta_values = np.linspace(0, 0.95, 40)

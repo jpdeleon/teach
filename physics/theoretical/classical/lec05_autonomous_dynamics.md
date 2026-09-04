@@ -146,6 +146,8 @@ def show_fig(fig):
 ```
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 # Six canonical (T, D) points, each with a companion matrix L = [[0, 1], [-D, T]]
 # (trace T, determinant D, by construction) so a single numeric recipe --
 # propagate initial conditions via the exact matrix exponential exp(Lt) --
@@ -268,6 +270,8 @@ within a 2D invariant plane while simultaneously being ejected along the third
 direction.
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def fig_saddle_focus():
     lam, mu, kappa = -0.35, 2.0, 0.28
     t = np.linspace(0, 9, 400)
@@ -362,6 +366,8 @@ oscillate around a **coexistence point**, out of phase, forever (in this simplif
 model with no other limiting effects).
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def lv_rhs(t, s):
     x, y = s
     return [x - x * y, -y + x * y]
@@ -427,6 +433,8 @@ oscillator, $\det\Phi(t) = e^{-\gamma t}$ (constant divergence $-\gamma$ integra
 trivially), makes the contrast explicit:
 
 ```{code-cell} ipython3
+:tags: [hide-input]
+
 def lv_variational_rhs(t, s):
     x, y, p11, p12, p21, p22 = s
     J11, J12, J21, J22 = 1 - y, -x, y, x - 1
