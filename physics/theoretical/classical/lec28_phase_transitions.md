@@ -152,10 +152,6 @@ def root_m0(T_over_Tc, n_scan=2000):
         return 1.0
     i = sign_change[0]
     return brentq(f, m_grid[i], m_grid[i + 1])
-```
-
-```{code-cell} ipython3
-:tags: [hide-input]
 
 def fig_paramagnet_family():
     h = np.linspace(0, 4, 300)  # mu*H / k_B, in kelvin

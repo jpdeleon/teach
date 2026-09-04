@@ -143,10 +143,6 @@ def show_fig(fig):
                         config={"responsive": True})
     _plotlyjs_loaded = True
     return HTML(html)
-```
-
-```{code-cell} ipython3
-:tags: [hide-input]
 
 # Six canonical (T, D) points, each with a companion matrix L = [[0, 1], [-D, T]]
 # (trace T, determinant D, by construction) so a single numeric recipe --

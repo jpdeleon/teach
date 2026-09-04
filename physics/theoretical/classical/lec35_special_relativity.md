@@ -180,10 +180,6 @@ def show_fig(fig):
                         config={"responsive": True})
     _plotlyjs_loaded = True
     return HTML(html)
-```
-
-```{code-cell} ipython3
-:tags: [hide-input]
 
 def fig_minkowski_massshell():
     u_values = np.linspace(0, 1.5, 30)  # rapidity of the boost
