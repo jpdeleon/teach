@@ -2,8 +2,6 @@
 
 Course materials covering foundational theoretical physics topics based on Prof. V. Balakrishnan's lecture series.
 
-Start with [Classical Physics](classical/index.md) for the lecture-by-lecture notes.
-
 ```{tableofcontents}
 ```
 
