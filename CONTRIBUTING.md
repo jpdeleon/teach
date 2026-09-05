@@ -13,7 +13,8 @@ out to several self-contained sub-books, each with its own `_toc.yml` and indepe
 - `philosophy_teaching/`
 
 Each sub-book's landing page (`<sub-book>/index.md`) is linked to directly from the root
-book's sidebar — there is no separate root-level summary page per sub-book.
+book's sidebar — there is no separate root-level summary page per sub-book, including for
+the three physics sub-books.
 
 ## Building the Books
 

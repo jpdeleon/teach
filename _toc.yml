@@ -6,7 +6,6 @@ root: intro
 parts:
   - caption: Physics
     chapters:
-      - file: physics
       - file: physics/theoretical/index
       - file: physics/applied/index
       - file: physics/general/index
