@@ -4,9 +4,6 @@ A curated path through the statistical and computational machinery behind modern
 analysis — from linear algebra and probability through Bayesian inference, Monte Carlo
 methods, Gaussian processes, and machine learning.
 
-```{tableofcontents}
-```
-
 ## Chapters
 
 * **[Foundations](foundations.md)** — statistics, linear algebra, probability

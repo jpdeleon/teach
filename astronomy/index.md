@@ -4,9 +4,6 @@ An introductory astronomy course, organized from the sky and the Solar System ou
 stars, galaxies, and cosmology, with a curated set of reviews, articles, code, and tools
 for each topic.
 
-```{tableofcontents}
-```
-
 ## Chapters
 
 * **[Foundations](foundations.md)** — why astronomy matters, celestial navigation and

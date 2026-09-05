@@ -4,9 +4,6 @@ A practical, end-to-end course on observing and analyzing astronomical data — 
 choosing what and how to observe, through instrumentation and data reduction, to
 extracting scientific results from photometry, spectroscopy, and time-series data.
 
-```{tableofcontents}
-```
-
 ## Chapters
 
 * **[Planning & Instrumentation](planning_and_instrumentation.md)** — atmospheric
